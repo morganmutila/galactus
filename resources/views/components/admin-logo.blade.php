@@ -1,0 +1,1 @@
+<img src="{{ asset('img/apple-touch-icon-white.png') }}" alt="{{ config('app.name') }} admin">
