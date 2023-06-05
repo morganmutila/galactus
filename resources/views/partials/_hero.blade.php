@@ -5,9 +5,9 @@
       <div class="info d-flex align-items-center">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-8 text-center">
               <h2 data-aos="fade-down">Welcome to <span>{{ config('app.name') }} </span></h2>
-              <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p data-aos="fade-up">Galactus Safety® your safety is our number 1 priority</p>
               <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Request A Quote</a>
             </div>
           </div>

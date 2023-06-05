@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Galactus Safety - @yield('title')</title>
+  <title>@yield('title', 'Galactus Safety® - Your safety is our number 1 priority')</title>
   <meta content="author" name="Mostek Technologies">
 
   <!-- Favicons -->
@@ -12,7 +12,7 @@
   <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <link href="https://fonts.cdnfonts.com/css/galano-grotesque-alt" rel="stylesheet">
-          
+
   <!-- Vendor CSS Files -->
   <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">

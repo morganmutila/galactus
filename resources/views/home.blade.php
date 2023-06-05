@@ -1,18 +1,33 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
-
 @section('content')
 
   <!-- ======= Hero Section ======= -->
     @include('partials._hero')
   <!-- End Hero Section -->
-   
+
   <main id="main">
     <!-- ======= Get Started Section ======= -->
+      <section class="call-to-action no-padding">
+    <div class="container">
+      <div class="action-style-box">
+          <div class="row">
+            <div class="col-md-8 text-center text-md-left">
+                <div class="call-to-action-text">
+                  <h3 class="action-title">We understand your needs on safety</h3>
+                </div>
+            </div><!-- Col end -->
+            <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
+                <div class="call-to-action-btn">
+                  <a class="btn btn-primary" href="contact.html">Request Quote</a>
+                </div>
+            </div><!-- col end -->
+          </div><!-- row end -->
+      </div><!-- Action style box -->
+    </div><!-- Container end -->
+  </section><!-- Action end -->
     <section id="get-started" class="get-started section-bg">
       <div class="container">
-
         <div class="row justify-content-between gy-4">
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
@@ -677,8 +692,8 @@
     <section id="recent-blog-posts" class="recent-blog-posts">
       <div class="container" data-aos="fade-up">
 
-    
-    
+
+
       <div class=" section-header">
         <h2>Recent Blog Posts</h2>
         <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
@@ -786,5 +801,5 @@
     <!-- End Recent Blog Posts Section -->
   </main>
 
-@endsection  
+@endsection
 
