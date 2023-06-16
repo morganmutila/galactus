@@ -28,8 +28,5 @@
           </ul>
         </nav><!-- .navbar -->
       </div>
-
-
-
     </div>
   </header>
