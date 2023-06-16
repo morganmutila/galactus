@@ -23,7 +23,6 @@
             <div class="col-lg-2 col-md-3 text-center text-md-start footer-links order-md-1">
                 <h4>Company</h4>
                 <ul>
-                <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('about') }}">About us</a></li>
                 <li><a href="{{ route('services') }}">Services</a></li>
                 <li><a href="{{ route('projects') }}">Projects</a></li>
@@ -48,7 +47,7 @@
                     <div class="social-links d-flex justify-content-center mt-3">
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                        {{-- <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a> --}}
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
