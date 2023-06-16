@@ -1943,11 +1943,11 @@ section {
 @media (max-width: 768px) {
     .hero .carousel {
         width: 100%;
-        min-height: 75vh;
-        padding: 50px 0;
+        min-height: 50vh;
+        padding: 30px 0;
     }
     .hero .info {
-        padding: 0 40px;
+        padding: 0 20px;
     }
 }
 
