@@ -6,8 +6,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 data-aos="fade-down" class="text-uppercase">Choose <span>{{ config('app.name') }} Safty Solutions</span></h2>
-                        <h4 data-aos="fade-up" class="text-white">Your safety is our number 1 priority. Elevate Your Safety Standards, Choose Excellence</h4>
+                        <h2 data-aos="fade-down" class="text-uppercase">Choose <span>{{ config('app.name') }}</span></h2>
+                        <h4 data-aos="fade-up" class="text-white">Elevate Your Safety Standards: Choose Excellence</h4>
                         <a data-aos="fade-up" data-aos-delay="200" class="btn-get-started d-none">Request A Quote</a>
                     </div>
                 </div>
@@ -15,8 +15,8 @@
         </div>
 
         <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-1.jpg') }})"></div>
-        <div class="carousel-item active" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-2.jpg') }})"></div>
-        <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-3.jpg') }})"></div>
+        <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-2.jpg') }})"></div>
+        <div class="carousel-item active" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-3.jpg') }})"></div>
         <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-4.jpg') }})"></div>
         <div class="carousel-item" style="background-image: url({{ asset('img/hero-carousel/hero-carousel-5.jpg') }})"></div>
 
