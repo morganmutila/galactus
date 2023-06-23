@@ -189,7 +189,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="row justify-content-around gy-4">
-            <div class="col-lg-6 img-bg" style="background-image: url({{ asset('img/alt-services.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
+            <div class="col-lg-6 img-bg" style="background-image: url({{ asset('img/feature-6.png') }});" data-aos="zoom-in" data-aos-delay="100"></div>
 
             <div class="col-lg-5 d-flex flex-column justify-content-center">
                 <h3 class="fs-1">Why Choose Galactus</h3>
@@ -231,7 +231,7 @@
             </div>
 
         </div>
-        </section><!-- End Alt Services Section -->
+        </section><!-- End Why choose us Section -->
 
         <!-- ======= Features Section ======= -->
         <section id="features" class="features section-bg">
