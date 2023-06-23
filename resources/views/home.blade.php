@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-md-8 text-center text-md-start">
                         <div class="call-to-action-text">
-                        <h3 class="action-title">We understand your needs on safety</h3>
+                        <h3 class="action-title">We understand your needs</h3>
                         </div>
                     </div>
                     <div class="col-md-4 text-center text-md-end mt-3 mt-md-0">
@@ -24,59 +24,90 @@
             </div>
         </section>
 
-        <section id="get-started" class="get-started section-bg">
-        <div class="container">
-            <div class="row justify-content-between gy-4">
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
 
-            <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-                <div class="content">
-                <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-                <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
-                <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+                <div class="section-header">
+                <h2>Our Solutions</h2>
                 </div>
-            </div>
 
-            <div class="col-lg-5" data-aos="fade">
-                <form action="#" method="post" class="email-form">
-                <h3>Get a quote</h3>
-                <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-                <div class="row gy-3">
+                <div class="row gy-4">
 
-                    <div class="col-md-12">
-                    <input type="text" name="name" class="form-control" placeholder="Name" required>
-                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item  position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-mountain-city"></i>
+                        </div>
+                        <h3>Safety Assessments</h3>
+                        <p>Our comprehensive safety assessments identify potential hazards and risks within your workplace. Our expert team conducts thorough inspections, analyzes processes, and provides detailed reports to help you create a safer work environment.</p>
+                        <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div><!-- End Service Item -->
 
-                    <div class="col-md-12 ">
-                    <input type="email" class="form-control" name="email" placeholder="Email" required>
-                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                        </div>
+                        <h3>Training Programs</h3>
+                        <p>We offer a wide range of safety training programs tailored to your industry and specific needs. Our engaging and informative training sessions cover topics such as hazard identification, emergency preparedness, personal protective equipment (PPE), and more.</p>
+                        <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div><!-- End Service Item -->
 
-                    <div class="col-md-12">
-                    <input type="text" class="form-control" name="phone" placeholder="Phone" required>
-                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                        </div>
+                        <h3>Consulting</h3>
+                        <p>Our experienced safety consultants work closely with you to develop effective safety strategies and programs. We provide guidance on regulatory compliance, risk management, safety policies and procedures, and help you implement best practices to enhance safety performance.</p>
+                        <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div><!-- End Service Item -->
 
-                    <div class="col-md-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-trowel-bricks"></i>
+                        </div>
+                        <h3>Safety Equipment Supply</h3>
+                        <p>We offer a comprehensive selection of high-quality safety equipment and supplies. From personal protective gear and safety signage to first aid kits and fire extinguishers, we ensure you have the necessary tools to maintain a safe work environment.</p>
+                        <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div><!-- End Service Item -->
 
-                    <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-helmet-safety"></i>
+                        </div>
+                        <h3>Safety Audits and Inspections</h3>
+                        <p>Our thorough safety audits and inspections assess your workplace's compliance with safety regulations and standards. We identify areas for improvement, provide actionable recommendations, and assist in implementing corrective measures.</p>
+                        <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div><!-- End Service Item -->
 
-                    <button type="submit">Get a quote</button>
-                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                        </div>
+                        <h3>Safety Management Systems</h3>
+                        <p>We help you establish effective safety management systems to streamline safety processes, track performance, and continuously improve safety practices. Our systems help create a proactive safety culture and drive overall organizational excellence.</p>
+                        <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div><!-- End Service Item -->
 
                 </div>
-                </form>
-            </div><!-- End Quote Form -->
 
             </div>
-
-        </div>
-        </section><!-- End Get Started Section -->
+            </section><!-- End Services Section -->
 
         <!-- ======= Constructions Section ======= -->
-        <section id="constructions" class="constructions">
+
+        {{-- <section id="constructions" class="constructions">
         <div class="container" data-aos="fade-up">
 
             <div class="section-header">
@@ -153,91 +184,9 @@
             </div>
 
         </div>
-        </section><!-- End Constructions Section -->
+        </section><!-- End Constructions Section --> --}}
 
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-header">
-            <h2>Services</h2>
-            <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
-            </div>
-
-            <div class="row gy-4">
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item  position-relative">
-                <div class="icon">
-                    <i class="fa-solid fa-mountain-city"></i>
-                </div>
-                <h3>Nesciunt Mete</h3>
-                <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-                </div>
-                <h3>Eosle Commodi</h3>
-                <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-                <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                </div>
-                <h3>Ledo Markt</h3>
-                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-                <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fa-solid fa-trowel-bricks"></i>
-                </div>
-                <h3>Asperiores Commodit</h3>
-                <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-                <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fa-solid fa-helmet-safety"></i>
-                </div>
-                <h3>Velit Doloremque</h3>
-                <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-                <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                <div class="service-item position-relative">
-                <div class="icon">
-                    <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-                </div>
-                <h3>Dolori Architecto</h3>
-                <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-                <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
-
-            </div>
-
-        </div>
-        </section><!-- End Services Section -->
-
-        <!-- ======= Alt Services Section ======= -->
+        <!-- ======= Why choose us Section ======= -->
         <section id="alt-services" class="alt-services">
         <div class="container" data-aos="fade-up">
 
@@ -245,38 +194,38 @@
             <div class="col-lg-6 img-bg" style="background-image: url({{ asset('img/alt-services.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
 
             <div class="col-lg-5 d-flex flex-column justify-content-center">
-                <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-                <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+                <h3 class="fs-1">Why Choose Galactus</h3>
+                <p class="lead">Choose us as your safety company, and let us help you create a safer work environment, mitigate risks, and protect your most valuable assets—your employees.</p>
 
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-                <i class="bi bi-easel flex-shrink-0"></i>
+                {{-- <i class="bi bi-easel flex-shrink-0"></i> --}}
                 <div>
-                    <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <h4><a href="" class="stretched-link">Expertise and Experience</a></h4>
+                    <p>With years of experience in the safety industry, our team of experts possesses the knowledge and skills necessary to address your safety needs effectively. We stay updated with the latest regulations, best practices, and industry standards, ensuring that you receive the highest level of professional service.</p>
                 </div>
                 </div><!-- End Icon Box -->
 
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-patch-check flex-shrink-0"></i>
+                {{-- <i class="bi bi-patch-check flex-shrink-0"></i> --}}
                 <div>
-                    <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    <h4><a href="" class="stretched-link">Comprehensive Safety Solutions</a></h4>
+                    <p>We offer a wide range of safety services tailored to meet the specific requirements of your industry. From conducting thorough safety assessments and implementing customized safety programs to providing comprehensive safety training and supplying top-quality safety equipment, we have you covered.</p>
                 </div>
                 </div><!-- End Icon Box -->
 
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                {{-- <i class="bi bi-brightness-high flex-shrink-0"></i> --}}
                 <div>
-                    <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                    <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                    <h4><a href="" class="stretched-link">Client-Focused Approach</a></h4>
+                    <p>We prioritize our clients and their unique needs. Our team takes the time to understand your organization, its operations, and safety challenges. We work closely with you to develop customized solutions that align with your goals and help create a safe and compliant work environment.</p>
                 </div>
                 </div><!-- End Icon Box -->
 
                 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                {{-- <i class="bi bi-brightness-high flex-shrink-0"></i> --}}
                 <div>
-                    <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                    <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                    <h4><a href="" class="stretched-link">Industry Experience</a></h4>
+                    <p>We have extensive experience serving various industries, including construction, manufacturing, healthcare, transportation, and more. Our industry-specific knowledge allows us to provide targeted safety solutions that address the specific risks and challenges faced by your industry.</p>
                 </div>
                 </div><!-- End Icon Box -->
 
@@ -418,10 +367,10 @@
 
             <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-remodeling">Remodeling</li>
-                <li data-filter=".filter-construction">Construction</li>
-                <li data-filter=".filter-repairs">Repairs</li>
-                <li data-filter=".filter-design">Design</li>
+                <li data-filter=".filter-remodeling">Safety Assessments</li>
+                <li data-filter=".filter-construction">Audits and Inspections</li>
+                <li data-filter=".filter-repairs">Equipment Supply</li>
+                <li data-filter=".filter-design">Safety Management</li>
             </ul><!-- End Projects Filters -->
 
             <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
@@ -533,43 +482,6 @@
                     </div>
                 </div>
                 </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
-                <div class="portfolio-content h-100">
-                    <img src="{{ asset('img/projects/construction-3.jpg')}}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                    <h4>Construction 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                    </div>
-                </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-                <div class="portfolio-content h-100">
-                    <img src="{{ asset('img/projects/repairs-3.jpg')}}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                    <h4>Repairs 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="{{ asset('img/projects/repairs-3.jpg')}}" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                    </div>
-                </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-design">
-                <div class="portfolio-content h-100">
-                    <img src="{{ asset('img/projects/design-3.jpg')}}" class="img-fluid" alt="">
-                    <div class="portfolio-info">
-                    <h4>Design 3</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                    <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                    </div>
-                </div>
-                </div><!-- End Projects Item -->
-
             </div><!-- End Projects Container -->
 
             </div>
@@ -582,8 +494,8 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-header">
-            <h2>Testimonials</h2>
-            <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+            <h2>What people say</h2>
+            <p>Here is our clients stories about {{ Config('app.name') }}</p>
             </div>
 
             <div class="slides-2 swiper">
@@ -686,15 +598,15 @@
         </div>
         </section><!-- End Testimonials Section -->
 
-        <!-- ======= Recent Blog Posts Section ======= -->
+        <!-- ======= Latest news Section ======= -->
         <section id="recent-blog-posts" class="recent-blog-posts">
         <div class="container" data-aos="fade-up">
 
 
 
         <div class=" section-header">
-            <h2>Recent Blog Posts</h2>
-            <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
+            <h2>Latest News</h2>
+            <p>The latest insights and updates</p>
         </div>
 
         <div class="row gy-5">
@@ -704,14 +616,14 @@
 
                 <div class="post-img position-relative overflow-hidden">
                 <img src="{{ asset('img/blog/blog-1.jpg')}}" class="img-fluid" alt="">
-                <span class="post-date">December 12</span>
+                {{-- <span class="post-date">December 12</span> --}}
                 </div>
 
                 <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+                <h3 class="post-title">10 Essential Workplace Safety Tips for Employees</h3>
 
-                <div class="meta d-flex align-items-center">
+                {{-- <div class="meta d-flex align-items-center">
                     <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
                     </div>
@@ -719,9 +631,8 @@
                     <div class="d-flex align-items-center">
                     <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
                     </div>
-                </div>
+                </div> --}}
 
-                <hr>
 
                 <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
@@ -735,14 +646,14 @@
 
                 <div class="post-img position-relative overflow-hidden">
                 <img src="{{ asset('img/blog/blog-2.jpg')}}" class="img-fluid" alt="">
-                <span class="post-date">July 17</span>
+                {{-- <span class="post-date">July 17</span> --}}
                 </div>
 
                 <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+                <h3 class="post-title">Understanding OSHA Compliance: A Guide for Businesses</h3>
 
-                <div class="meta d-flex align-items-center">
+                {{-- <div class="meta d-flex align-items-center">
                     <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
                     </div>
@@ -750,9 +661,8 @@
                     <div class="d-flex align-items-center">
                     <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
                     </div>
-                </div>
+                </div> --}}
 
-                <hr>
 
                 <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 
@@ -766,14 +676,14 @@
 
                 <div class="post-img position-relative overflow-hidden">
                 <img src="{{ asset('img/blog/blog-3.jpg') }}" class="img-fluid" alt="">
-                <span class="post-date">September 05</span>
+                {{-- <span class="post-date">September 05</span> --}}
                 </div>
 
                 <div class="post-content d-flex flex-column">
 
-                <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
+                <h3 class="post-title">Fire Safety 101: Protecting Your Business and Employees</h3>
 
-                <div class="meta d-flex align-items-center">
+                {{-- <div class="meta d-flex align-items-center">
                     <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
                     </div>
@@ -781,9 +691,8 @@
                     <div class="d-flex align-items-center">
                     <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
                     </div>
-                </div>
+                </div> --}}
 
-                <hr>
 
                 <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
 

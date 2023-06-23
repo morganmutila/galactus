@@ -8,7 +8,8 @@
                   <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center">
                     <img src="{{ asset('img/logo.png') }}"/>
                   </a>
-                  <p>Your safety is our no 1 priority</p>
+                  <p class="mb-3 text-sm"><em>At {{ Config('app.name') }} we are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support to ensure the well-being of your workforce and the success of your organization.</em></p>
+                  <a href="#" class="btn rounded-1 text-white">Request a quote</a>
                 </div>
             </div><!-- End footer info column-->
             <div class="col-lg-2 col-md-4 text-center text-md-start footer-links order-md-4">
@@ -19,6 +20,7 @@
                     <strong>Phone:</strong> +260976249140<br>
                     <strong>Email:</strong> info@galactussafety.com<br>
                 </p>
+
             </div><!-- End footer links column-->
             <div class="col-lg-2 col-md-3 text-center text-md-start footer-links order-md-1">
                 <h4>Company</h4>
@@ -32,12 +34,11 @@
             </div><!-- End footer links column-->
 
             <div class="col-lg-2 col-md-4  text-center text-md-start footer-links order-md-2">
-                <h4>Our Services</h4>
+                <h4>Our Solutions</h4>
                 <ul>
-                <li><a href="#">Consultation</a></li>
-                <li><a href="#">Safety Gear</a></li>
-                <li><a href="#">Project Management</a></li>
-                <li><a href="#" class="btn py-3 rounded-1 aos-init aos-animate">Request a quote</a></li>
+                    <li><a href="#">Consultation</a></li>
+                    <li><a href="#">Safety Gear</a></li>
+                    <li><a href="#">Project Management</a></li>
                 </ul>
             </div><!-- End footer links column-->
 
