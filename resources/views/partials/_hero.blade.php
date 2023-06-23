@@ -8,7 +8,7 @@
                     <div class="col-lg-8 text-center">
                         <h2 data-aos="fade-down" class="text-uppercase">Choose <span>{{ config('app.name') }} Safty Solutions</span></h2>
                         <h4 data-aos="fade-up" class="text-white">Your safety is our number 1 priority. Elevate Your Safety Standards, Choose Excellence</h4>
-                        <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started d-none">Request A Quote</a>
+                        <a data-aos="fade-up" data-aos-delay="200" class="btn-get-started d-none">Request A Quote</a>
                     </div>
                 </div>
             </div>
