@@ -8,7 +8,7 @@
                   <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center">
                     <img src="{{ asset('img/logo.png') }}"/>
                   </a>
-                  <p class="text-sm">We are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support to ensure the well-being of your workforce and the success of your organization.</p>
+                  <p class="text-sm px-md-4 px-lg-5">We are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support to ensure the well-being of your workforce and the success of your organization.</p>
                   <a href="#" class="btn rounded-1 text-white my-3">Request a quote</a>
                 </div>
             </div><!-- End footer info column-->
