@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 data-aos="fade-down" class="text-uppercase">Choose <span>{{ config('app.name') }}</span></h2>
+                        <h2 data-aos="fade-down">Choose <span>{{ config('app.name') }}</span></h2>
                         <h4 data-aos="fade-up" class="text-white">Elevate Your Safety Standards: Choose Excellence</h4>
                         <a data-aos="fade-up" data-aos-delay="200" class="btn-get-started d-none">Request A Quote</a>
                     </div>
