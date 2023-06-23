@@ -8,12 +8,12 @@
                   <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center">
                     <img src="{{ asset('img/logo.png') }}"/>
                   </a>
-                  <p class="mb-3 text-sm"><em>At {{ Config('app.name') }} we are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support to ensure the well-being of your workforce and the success of your organization.</em></p>
-                  <a href="#" class="btn rounded-1 text-white">Request a quote</a>
+                  <p class="text-sm"><em>We are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support to ensure the well-being of your workforce and the success of your organization.</em></p>
+                  <a href="#" class="btn rounded-1 text-white my-3">Request a quote</a>
                 </div>
             </div><!-- End footer info column-->
             <div class="col-lg-2 col-md-4 text-center text-md-start footer-links order-md-4">
-                <h4 class="d-none d-md-block">Contact</h4>
+                <h4>Contact</h4>
                 <p>
                     A108 Adam Street <br>
                     NY 535022, USA<br><br>
@@ -60,7 +60,7 @@
     <div class="footer-legal text-center position-relative">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright {{ date('Y') }}&nbsp<strong><span>{{ Config('app.name') }} Safety Solutions Ltd</span></strong>. All Rights Reserved
+          Copyright &copy; {{ date('Y') }}&nbsp<strong><span>{{ Config('app.name') }} Safety Solutions Ltd</span></strong>. All Rights Reserved
         </div>
       </div>
     </div>

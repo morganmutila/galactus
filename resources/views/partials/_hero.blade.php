@@ -1,6 +1,6 @@
 <section id="hero" class="hero">
 
-    <div id="hero-carousel" class="carousel p-0 slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div id="hero-carousel" class="carousel p-0 slide" data-bs-ride="carousel" data-bs-interval="7000">
 
         <div class="info d-flex align-items-center">
             <div class="container">
