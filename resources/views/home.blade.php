@@ -15,9 +15,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center text-md-end mt-3 mt-md-0">
-                        <div class="call-to-action-btn">
-                        <a class="btn btn-primary" href="{{ route('contact') }}">Request Quote</a>
-                        </div>
+                        <a class="btn call-to-action-btn rounded-1 text-white" href="{{ route('contact') }}">Request a quote</a>
                     </div>
                 </div>
             </div>
@@ -494,7 +492,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-header">
-            <h2>What people say</h2>
+            <h2>Testimonials</h2>
             <p>Here is our clients stories about {{ Config('app.name') }}</p>
             </div>
 
