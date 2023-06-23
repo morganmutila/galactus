@@ -3,7 +3,7 @@
 @section('title', 'About Us')
 
 @section('content')
- 
+
   <main id="main">
 
     <x-breadcrumb>
@@ -19,8 +19,7 @@
           <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/about.jpg') }});"></div>
 
           <div class="col-lg-7">
-            <h2>{{ Config('app.name') }} Safety Solutions</h2>
-            <div class="our-story bg-primary text-white">
+            <div class="our-story">
               <h3 class="text-secodary">Our Story</h3>
               <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p>
               <ul>
@@ -372,5 +371,5 @@
 
   </main><!-- End #main -->
 
-@endsection  
+@endsection
 
