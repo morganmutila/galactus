@@ -195,36 +195,32 @@
                     <h3 class="fs-1">Why Choose Galactus</h3>
                     <p class="lead">Choose us as your safety company, and let us help you create a safer work environment, mitigate risks, and protect your most valuable assets—your employees.</p>
 
-                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-                    <i class="bi bi-patch-check-fill flex-shrink-0"></i>
-                    <div>
-                        <h4>Expertise and Experience</h4>
-                        <p>With years of experience in the safety industry, our team of experts possesses the knowledge and skills necessary to address your safety needs effectively. We stay updated with the latest regulations, best practices, and industry standards, ensuring that you receive the highest level of professional service.</p>
-                    </div>
+                    <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="100">
+                        <i class="bi bi-patch-check-fill flex-shrink-0"></i>
+                        <div>
+                            <h4>Expertise and Experience</h4>
+                        </div>
                     </div><!-- End Icon Box -->
 
-                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-                    <i class="bi bi-easel-fill flex-shrink-0"></i>
-                    <div>
-                        <h4>Comprehensive Safety Solutions</h4>
-                        <p>We offer a wide range of safety services tailored to meet the specific requirements of your industry. From conducting thorough safety assessments and implementing customized safety programs to providing comprehensive safety training and supplying top-quality safety equipment, we have you covered.</p>
-                    </div>
+                    <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <i class="bi bi-easel-fill flex-shrink-0"></i>
+                        <div>
+                            <h4>Comprehensive Safety Solutions</h4>
+                        </div>
                     </div><!-- End Icon Box -->
 
-                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-                    <i class="bi bi-people-fill flex-shrink-0"></i>
-                    <div>
-                        <h4>Client-Focused Approach</h4>
-                        <p>We prioritize our clients and their unique needs. Our team takes the time to understand your organization, its operations, and safety challenges. We work closely with you to develop customized solutions that align with your goals and help create a safe and compliant work environment.</p>
-                    </div>
+                    <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="300">
+                        <i class="bi bi-people-fill flex-shrink-0"></i>
+                        <div>
+                            <h4>Client-Focused Approach</h4>
+                        </div>
                     </div><!-- End Icon Box -->
 
-                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-                    <i class="fa fa-helmet-safety  flex-shrink-0"></i>
-                    <div>
-                        <h4>Industry Experience</h4>
-                        <p>We have extensive experience serving various industries, including construction, manufacturing, healthcare, transportation, and more. Our industry-specific knowledge allows us to provide targeted safety solutions that address the specific risks and challenges faced by your industry.</p>
-                    </div>
+                    <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fa fa-helmet-safety  flex-shrink-0"></i>
+                        <div>
+                            <h4>Industry Experience</h4>
+                        </div>
                     </div><!-- End Icon Box -->
 
                 </div>

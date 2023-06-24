@@ -494,9 +494,9 @@ section {
   .navbar ul {
     position: absolute;
     inset: 0;
-    padding: 50px 0 10px 0;
+    padding: 60px 0 10px 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--color-default);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -506,10 +506,11 @@ section {
   .navbar a:focus {
     display: flex;
     align-items: center;
+    letter-spacing: 1px;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 16px 23px;
     font-family: var(--font-primary);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
@@ -538,7 +539,6 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #222428;
   }
 
   .navbar .dropdown>.dropdown-active,

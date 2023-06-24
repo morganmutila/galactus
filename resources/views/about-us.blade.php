@@ -12,86 +12,86 @@
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="fade-up">
 
-            <div class="row position-relative">
+                <div class="row position-relative">
 
-            <div class="col-lg-7">
-                <div class="our-story bg-white pt-0 ps-0">
-                    <h3>Our Story</h3>
-                    <p>
-                        Galactus Safety Solutions Limited, founded by Mbachi Ngulube, is a leading provider of
-                        comprehensive safety solutions, committed to ensuring the well-being of individuals and
-                        organizations.
-                    </p>
-                    <p>
-                        With a strong focus on delivering excellence, Galactus Safety Solutions Limited
-                        has been serving clients since its establishment and is registered with the Patents and Companies
-                        Registration Agency (PACRA) under entity number 120220031661, guaranteeing its legitimacy and professionalism.
-                    </p>
-                    <p>
-                        Our dedicated team of safety experts leverages extensive industry knowledge and experience to deliver tailored safety
-                        services, including safety assessments, training programs, consulting, and equipment supply. We are passionately committed
-                        to fostering a culture of safety, empowering our clients to mitigate risks, comply with regulations, and create a secure working environment.
-                        Partner with Galactus Safety Solutions Limited to ensure the highest standards of safety and protect what matters most.
-                    </p>
+                    <div class="col-lg-7">
+                        <div class="our-story bg-white pt-0 ps-0">
+                            <h3>Our Story</h3>
+                            <p>
+                                Galactus Safety Solutions Limited, founded by Mbachi Ngulube, is a leading provider of
+                                comprehensive safety solutions, committed to ensuring the well-being of individuals and
+                                organizations.
+                            </p>
+                            <p>
+                                With a strong focus on delivering excellence, Galactus Safety Solutions Limited
+                                has been serving clients since its establishment and is registered with the Patents and Companies
+                                Registration Agency (PACRA) under entity number 120220031661, guaranteeing its legitimacy and professionalism.
+                            </p>
+                            <p>
+                                Our dedicated team of safety experts leverages extensive industry knowledge and experience to deliver tailored safety
+                                services, including safety assessments, training programs, consulting, and equipment supply. We are passionately committed
+                                to fostering a culture of safety, empowering our clients to mitigate risks, comply with regulations, and create a secure working environment.
+                                Partner with Galactus Safety Solutions Limited to ensure the highest standards of safety and protect what matters most.
+                            </p>
 
 
-                    <div class="watch-video d-flex align-items-center position-relative">
-                        <i class="bi bi-play-circle"></i>
-                        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
+                            <div class="watch-video d-flex align-items-center position-relative">
+                                <i class="bi bi-play-circle"></i>
+                                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/about.jpg') }});"></div>
+
                 </div>
-            </div>
-
-            <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/about.jpg') }});"></div>
 
             </div>
-
-        </div>
         </section>
         <!-- End About Section -->
 
         <!-- ======= Stats Counter Section ======= -->
         <section id="stats-counter" class="stats-counter section-bg">
-        <div class="container">
+            <div class="container">
 
-            <div class="row gy-4">
+                <div class="row gy-4">
 
-            <div class="col-lg-3 col-md-6">
-                <div class="stats-item d-flex align-items-center w-100 h-100">
-                <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
-                <div>
-                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Happy Clients</p>
-                </div>
-                </div>
-            </div><!-- End Stats Item -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item d-flex align-items-center w-100 h-100">
+                        <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Happy Clients</p>
+                        </div>
+                        </div>
+                    </div><!-- End Stats Item -->
 
-            <div class="col-lg-3 col-md-6">
-                <div class="stats-item d-flex align-items-center w-100 h-100">
-                <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
-                <div>
-                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Projects</p>
-                </div>
-                </div>
-            </div><!-- End Stats Item -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item d-flex align-items-center w-100 h-100">
+                        <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Projects</p>
+                        </div>
+                        </div>
+                    </div><!-- End Stats Item -->
 
 
-            <div class="col-lg-3 col-md-6">
-                <div class="stats-item d-flex align-items-center w-100 h-100">
-                <i class="bi bi-people color-pink flex-shrink-0"></i>
-                <div>
-                    <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Hard Workers</p>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item d-flex align-items-center w-100 h-100">
+                        <i class="bi bi-people color-pink flex-shrink-0"></i>
+                        <div>
+                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Hard Workers</p>
+                        </div>
+                        </div>
+                    </div><!-- End Stats Item -->
+
                 </div>
-                </div>
-            </div><!-- End Stats Item -->
 
             </div>
-
-        </div>
         </section><!-- End Stats Counter Section -->
 
         <!-- ======= Why choose us Section ======= -->
@@ -144,69 +144,69 @@
 
         <!-- ======= Our Team Section ======= -->
         <section id="team" class="team">
-        <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="fade-up">
 
-            <div class="section-header">
-            <h2>Management</h2>
-            <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+                <div class="section-header">
+                    <h2>Management</h2>
+                    <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+                </div>
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                        <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                        <div class="social">
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        </div>
+                        <div class="member-info text-center">
+                        <h4>Mbachi Ngulube</h4>
+                        <span>Executive Director</span>
+                        <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="{{ asset('img/team/team-2.jpg') }}" class="img-fluid" alt="">
+                            <div class="social">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info text-center">
+                            <h4>Mwansa Kosamu</h4>
+                            <span>Product Manager</span>
+                            <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member-img">
+                    <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid" alt="">
+                    <div class="social">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    </div>
+                    <div class="member-info text-center">
+                    <h4>Owen Kijele</h4>
+                    <span>CTO</span>
+                    <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                    </div>
+                </div><!-- End Team Member -->
+
+                </div>
+
             </div>
-
-            <div class="row gy-5">
-
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-                <div class="member-img">
-                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                <div class="social">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-                </div>
-                <div class="member-info text-center">
-                <h4>Mbachi Ngulube</h4>
-                <span>Executive Director</span>
-                <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-                <div class="member-img">
-                <img src="{{ asset('img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                <div class="social">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-                </div>
-                <div class="member-info text-center">
-                <h4>Mwansa Kosamu</h4>
-                <span>Product Manager</span>
-                <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-                <div class="member-img">
-                <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid" alt="">
-                <div class="social">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-                </div>
-                <div class="member-info text-center">
-                <h4>Owen Kijele</h4>
-                <span>CTO</span>
-                <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
-                </div>
-            </div><!-- End Team Member -->
-
-            </div>
-
-        </div>
         </section><!-- End Our Team Section -->
 
         <!-- ======= Testimonials Section ======= -->
