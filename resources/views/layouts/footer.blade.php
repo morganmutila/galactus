@@ -6,7 +6,7 @@
             <div class="col-lg-4 col-md-5 text-center text-md-start order-md-3">
                 <div class="footer-info text-center">
                   <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center">
-                    <img src="{{ asset('img/galactus.png') }}"/>
+                    <img src="{{ asset('img/logo-white.png') }}"/>
                   </a>
                   <p class="text-sm px-md-4 px-lg-5">We are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support to ensure the well-being of your workforce and the success of your organization.</p>
                   <a href="#" class="btn rounded-1 text-white my-3">Request a quote</a>
