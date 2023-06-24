@@ -594,13 +594,12 @@ section {
     padding: 30px;
   }
 
-  .call-to-action-title {
+  .call-to-action-text {
     color: #fff;
     margin: 0;
     padding: 25px 0;
     line-height: normal;
-    font-size: 22px;
-    text-transform: capitalize;
+    font-size: 20px;
   }
 
   /* Action style box */
@@ -627,10 +626,28 @@ section {
   .action-title {
     color: #fff;
     margin: 0;
-    line-height: 36px;
+    line-height: 80px;
     font-size: 18px;
     text-transform: uppercase;
   }
+
+  .action-title:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: var(--color-primary);
+    left: 0;
+    right: 94%;
+    bottom: 0;
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+    .action-title:after {
+        right: 0;
+    }
+}
 
 /*--------------------------------------------------------------
 # Get Started Section
@@ -1993,19 +2010,6 @@ section {
     font-size: 56px;
     font-weight: 700;
     position: relative;
-}
-
-.hero .info h2:after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 80px;
-    height: 4px;
-    background: var(--color-primary);
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
 }
 
 @media (max-width: 768px) {
