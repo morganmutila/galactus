@@ -33,7 +33,7 @@
                 </ul>
             </div><!-- End footer links column-->
 
-            <div class="col-lg-2 col-md-4  text-center text-md-start footer-links order-md-2">
+            <div class="col-lg-2 col-md-4 d-none d-md-block text-center text-md-start footer-links order-md-2">
                 <h4>Our Solutions</h4>
                 <ul>
                     <li><a href="#">Consultation</a></li>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>@yield('title', 'Galactus Safety® - Your safety is our number 1 priority')</title>
+  <title>@yield('title', 'Galactus® - Your safety is our number 1 priority')</title>
   <meta content="author" name="Mostek Technologies">
 
   <!-- Favicons -->

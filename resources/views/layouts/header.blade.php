@@ -21,6 +21,7 @@
               <ul>
                 <li><a href="{{ route('about') }}" class="@if (request()->RouteIs('about')) ? active : '' @endif">About</a></li>
                 <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Our Team</a></li>
+                <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Brand</a></li>
                 <li><a href="{{ route('about') }}/#vision" class="@if (request()->RouteIs('about')) ? active : '' @endif">Vision & Mission</a></li>
               </ul>
             </li>
