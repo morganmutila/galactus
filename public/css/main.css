@@ -9,7 +9,7 @@
 :root {
   --color-default: #364d59;
   --color-primary: #ffa300;
-  --color-secondary: #012442;
+  --color-secondary: #0e1f43;
 }
 
 /* Smooth scroll behavior */
@@ -508,7 +508,7 @@ section {
     align-items: center;
     letter-spacing: 1px;
     justify-content: space-between;
-    padding: 16px 40px;
+    padding: 16px 20px;
     font-family: var(--font-primary);
     font-size: 1rem;
     font-weight: 500;
@@ -1995,7 +1995,7 @@ section {
     position: relative;
 }
 
-/* .hero .info h2:after {
+.hero .info h2:after {
     content: "";
     position: absolute;
     display: block;
@@ -2006,7 +2006,7 @@ section {
     right: 0;
     bottom: 0;
     margin: auto;
-} */
+}
 
 @media (max-width: 768px) {
   .hero .info h2 {
@@ -2698,20 +2698,18 @@ section {
 }
 
 .footer .footer-content .social-links a {
-  font-size: 18px;
+  font-size: 1.4rem;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background: transparent;
   color: #fff;
   line-height: 1;
   margin-right: 8px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
+  width: 45px;
+  height: 45px;
   transition: 0.3s;
 }
 
 .footer .footer-content .social-links a:hover {
-  background: var(--color-primary);
   text-decoration: none;
 }
 

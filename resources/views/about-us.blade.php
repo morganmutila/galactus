@@ -16,9 +16,9 @@
 
                 <div class="row position-relative">
 
-                    <div class="col-lg-7">
+                    <div class="col-lg-8">
                         <div class="our-story bg-white pt-0 ps-0">
-                            <h3>Our Story</h3>
+                            <h3>Our Company</h3>
                             <p>
                                 Galactus Safety Solutions Limited, founded by Mbachi Ngulube, is a leading provider of
                                 comprehensive safety solutions, committed to ensuring the well-being of individuals and
@@ -44,7 +44,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/about.jpg') }});"></div>
+                    <div class="col-lg-6 about-img" style="background-image: url({{ asset('img/about.jpg') }});"></div>
 
                 </div>
 
@@ -56,7 +56,7 @@
         <section id="stats-counter" class="stats-counter">
             <div class="container">
 
-                <div class="row gy-2">
+                <div class="row gy-2 justify-content-md-center">
 
                     <div class="col-lg-3 col-md-6">
                         <div class="stats-item d-flex align-items-center w-100 h-100">
