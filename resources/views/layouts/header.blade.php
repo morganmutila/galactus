@@ -9,8 +9,7 @@
           <div class="text-white small"><span class="bi bi-telephone"></span>&nbsp;&nbsp;+1 5589 55488 55</div>
           <div class="text-white small"><span class="bi bi-envelope"></span>&nbsp;&nbsp;info@galactussafety.com</div>
         </div> --}}
-        {{-- <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i> --}}
-        <i class="mobile-nav-toggle mobile-nav-show bi bi-text-right"></i>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         <nav id="navbar" class="navbar">
           <ul>

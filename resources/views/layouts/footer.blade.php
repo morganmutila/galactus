@@ -49,7 +49,7 @@
                     <div class="social-links d-flex justify-content-center mt-3">
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-youtube"></i></a>
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>

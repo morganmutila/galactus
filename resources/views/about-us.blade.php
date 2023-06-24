@@ -53,10 +53,10 @@
         <!-- End About Section -->
 
         <!-- ======= Stats Counter Section ======= -->
-        <section id="stats-counter" class="stats-counter section-bg">
+        <section id="stats-counter" class="stats-counter">
             <div class="container">
 
-                <div class="row gy-4">
+                <div class="row gy-2">
 
                     <div class="col-lg-3 col-md-6">
                         <div class="stats-item d-flex align-items-center w-100 h-100">

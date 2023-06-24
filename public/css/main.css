@@ -508,7 +508,7 @@ section {
     align-items: center;
     letter-spacing: 1px;
     justify-content: space-between;
-    padding: 16px 23px;
+    padding: 16px 40px;
     font-family: var(--font-primary);
     font-size: 1rem;
     font-weight: 500;
@@ -529,7 +529,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: var(--color-primary);
   }
 
   .navbar .dropdown ul,
@@ -565,7 +565,7 @@ section {
     transition: 0.5s;
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 30px;
     z-index: 9999;
   }
 
@@ -581,7 +581,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--color-default);
     z-index: 9996;
   }
 }
@@ -590,7 +590,7 @@ section {
 # Call to action
 --------------------------------------------------------------*/
 .call-to-action {
-    background-color: #272d33;
+    background-color: var(--color-default);
     padding: 30px;
   }
 
@@ -609,7 +609,7 @@ section {
   }
 
   .call-to-action-box .action-style-box {
-    background: #ffb600;
+    background: var(--color-primary);
     padding: 30px;
   }
 
@@ -1355,6 +1355,8 @@ section {
 @media (min-width: 992px) {
   .about .about-img {
     position: absolute;
+    padding: 10px;
+    border-radius: 5px;
     top: 0;
     right: 0;
   }
