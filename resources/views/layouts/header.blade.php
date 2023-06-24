@@ -2,7 +2,7 @@
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="{{ route('home') }}" class="logo d-flex align-items-center">
-        <x-logo-2/>
+        <x-logo/>
       </a>
       <div>
         {{-- <div class="align-items-center justify-content-end d-none d-md-flex gap-3 pb-3" style="font-size:14px;">
