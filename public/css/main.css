@@ -485,7 +485,7 @@ section {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     bottom: 0;
     transition: 0.3s;
     z-index: 9997;
@@ -597,7 +597,7 @@ section {
   .call-to-action-text {
     color: #fff;
     margin: 0;
-    padding: 25px 0;
+    padding: 0  0 25px;
     line-height: normal;
     font-size: 20px;
   }
@@ -626,16 +626,15 @@ section {
   .action-title {
     color: #fff;
     margin: 0;
-    line-height: 80px;
+    line-height: 65px;
     font-size: 18px;
-    text-transform: uppercase;
   }
 
   .action-title:after {
     content: "";
     position: absolute;
     display: block;
-    width: 70px;
+    width: 60px;
     height: 4px;
     background: var(--color-primary);
     left: 0;
@@ -643,11 +642,11 @@ section {
     bottom: 0;
     margin: auto;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .action-title:after {
         right: 0;
     }
-}
+} */
 
 /*--------------------------------------------------------------
 # Get Started Section
@@ -2014,7 +2013,9 @@ section {
 
 @media (max-width: 768px) {
   .hero .info h2 {
-    font-size: 36px;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -2702,7 +2703,7 @@ section {
 }
 
 .footer .footer-content .social-links a {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   display: inline-block;
   background: transparent;
   color: #fff;

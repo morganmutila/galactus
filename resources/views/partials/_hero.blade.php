@@ -6,8 +6,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 data-aos="fade-down text-uppercase">We Understand Your<br>Safety Needs</h2>
-                        <h4 data-aos="fade-up" class="text-white">Elevate Your Safety Standards With our expert Solutions, expert guidance and reliable support.</h4>
+                        <h2 data-aos="fade-down text-uppercase">We Understand Your<br><span class="text-primary">Safety</span> Needs</h2>
+                        <h4 data-aos="fade-up" class="text-white d-none d-md-block">Elevate Your Safety Standards With our expert Solutions, expert guidance and reliable support.</h4>
                         <a data-aos="fade-up" data-aos-delay="200" class="btn-get-started d-none">Request A Quote</a>
                     </div>
                 </div>
