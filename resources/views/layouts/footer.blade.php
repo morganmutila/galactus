@@ -59,7 +59,7 @@
     <div class="footer-legal text-center position-relative">
         <div class="container">
             <div class="copyright">
-                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. All Rights Reserved
+                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. <br class="d-md-none">All Rights Reserved
             </div>
         </div>
     </div>

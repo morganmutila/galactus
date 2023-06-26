@@ -11,7 +11,7 @@
         </x-breadcrumb>
 
         <!-- ======= About Section ======= -->
-        <section id="about" class="about">
+        <section id="about" class="about pb-0">
             <div class="container" data-aos="fade-up">
 
                 <div class="row position-relative">
