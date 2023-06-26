@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 data-aos="fade-down text-uppercase">We Understand Your<br><span class="text-primary">Safety</span> Needs</h2>
+                        <h2 data-aos="fade-down text-uppercase">We Understand Your<br>Needs on <span class="text-primary">Safety</span></h2>
                         <h4 data-aos="fade-up" class="text-white d-none d-md-block">Elevate Your Safety Standards With our expert Solutions, expert guidance and reliable support.</h4>
                     </div>
                 </div>
