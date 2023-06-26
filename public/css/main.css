@@ -309,7 +309,7 @@ section {
 .header {
   z-index: 997;
   position: absolute;
-  padding: 25px 0;
+  padding: 20px 0;
   top: 0;
   left: 0;
   right: 0;
@@ -1343,11 +1343,9 @@ section {
 
 @media (min-width: 992px) {
   .about .about-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-position: 20%;
-  }
+        min-height: 350px;
+        background-position: 20%;
+    }
 }
 
 /*--------------------------------------------------------------
