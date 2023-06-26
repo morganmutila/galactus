@@ -20,7 +20,7 @@
                         <li><a href="{{ route('about') }}/#vision" class="@if (request()->RouteIs('about')) ? active : '' @endif">Vision & Mission</a></li>
                     </ul>
                     </li>
-                    <li><a href="{{ route('blog') }}" class="@if (request()->RouteIs('blog')) ? active : '' @endif">Blog</a></li>
+                    <li><a href="{{ route('blog') }}" class="@if (request()->RouteIs('blog')) ? active : '' @endif">Insights</a></li>
                     <li><a href="{{ route('contact') }}" class="@if (request()->RouteIs('contact')) ? active : '' @endif">Contact</a></li>
                 </ul>
             </nav><!-- .navbar -->

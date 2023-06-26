@@ -30,7 +30,7 @@
                         <li><a href="{{ route('services') }}">Services</a></li>
                         <li><a href="{{ route('projects') }}">Projects</a></li>
                         <li><a href="{{ route('home') }}">Brand</a></li>
-                        <li><a href="{{ route('blog') }}">Blog</a></li>
+                        <li><a href="{{ route('blog') }}">Insights</a></li>
                     </ul>
                 </div><!-- End footer links column-->
 
@@ -59,7 +59,7 @@
     <div class="footer-legal text-center position-relative">
         <div class="container">
             <div class="copyright">
-                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. <br class="d-md-none">All Rights Reserved
+                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. <br class="d-md-none">All Rights Reserved.
             </div>
         </div>
     </div>

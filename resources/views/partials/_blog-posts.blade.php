@@ -3,7 +3,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class=" section-header">
-            <h2>Latest News</h2>
+            <h2>Insights</h2>
             <p>The latest insights and updates</p>
         </div>
 

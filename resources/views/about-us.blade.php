@@ -11,25 +11,25 @@
         </x-breadcrumb>
 
         <!-- ======= About Section ======= -->
-        <section id="about" class="about pb-0">
+        <section id="about" class="about">
             <div class="container" data-aos="fade-up">
 
                 <div class="row position-relative">
 
                     <div class="col-lg-7">
                         <div class="our-story bg-white pt-0 ps-0 pe-0 pe-md-3">
-                            <h2 class="gss-title">Our Company</h2>
+                            <h2 class="gss-title text-capitalize">Your safety partner</h2>
                             <p class="lead">
                                 Galactus Safety Solutions Limited, founded by Mbachi Ngulube, is a leading provider of
                                 comprehensive safety solutions, committed to ensuring the well-being of individuals and
                                 organizations.
                             </p>
-                            <p class="lh-lg">
+                            <p class="lh-base">
                                 With a strong focus on delivering excellence, Galactus Safety Solutions Limited
                                 has been serving clients since its establishment and is registered with the Patents and Companies
                                 Registration Agency (PACRA) under entity number 120220031661, guaranteeing its legitimacy and professionalism.
                             </p>
-                            <p class="lh-lg">
+                            <p class="lh-base">
                                 Our dedicated team of safety experts leverages extensive industry knowledge and experience to deliver tailored safety
                                 services, including safety assessments, training programs, consulting, and equipment supply. We are passionately committed
                                 to fostering a culture of safety, empowering our clients to mitigate risks, comply with regulations, and create a secure working environment.
