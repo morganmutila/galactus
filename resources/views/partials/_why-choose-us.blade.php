@@ -3,10 +3,10 @@
     <div class="container" data-aos="fade-up">
 
         <div class="row justify-content-around gy-4">
-            <div class="col-lg-6 img-bg" style="background-image: url({{ asset('img/why-wok-with-us-2.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
+            <div class="col-lg-6 image" style="background-image: url({{ asset('img/why-wok-with-us-2.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
 
             <div class="col-lg-5 d-flex flex-column justify-content-center">
-                <h3 class="fs-1">Why Choose Galactus</h3>
+                <h2 class="gss-title">Why Choose Galactus</h2>
                 <p class="lead">Choose us as your safety company, and let us help you create a safer work environment, mitigate risks, and protect your most valuable assets—your employees.</p>
 
                 <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="100">

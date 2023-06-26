@@ -26,7 +26,7 @@
                 <div class="col-lg-2 col-md-3 text-center text-md-start footer-links order-md-1">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="{{ route('about') }}">About us</a></li>
+                        <li><a href="{{ route('about') }}">About {{ Config('app.name') }}</a></li>
                         <li><a href="{{ route('services') }}">Services</a></li>
                         <li><a href="{{ route('projects') }}">Projects</a></li>
                         <li><a href="{{ route('home') }}">Brand</a></li>

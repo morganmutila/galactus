@@ -45,7 +45,40 @@ h6 {
   font-family: var(--font-primary);
 }
 
+.gss-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
 
+  .gss-title:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    left: 0;
+    bottom: 0;
+  }
+
+.img-bg {
+    padding: 70px 0;
+    min-height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-bg:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+}
 /*--------------------------------------------------------------
 # Fonts
 ----------------------------------------------------------------*/
@@ -136,16 +169,16 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 70px 0;
-  min-height: 50vh;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    padding: 70px 0;
+    min-height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .breadcrumbs h2 {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 500;
     color: #fff;
     font-family: var(--font-secondary);
@@ -172,43 +205,12 @@ section {
     }
 
     .breadcrumbs h2 {
-        font-size: 2em;
+        font-size: 1.5em;
         letter-spacing: 2px;
     }
     .breadcrumbs h2:after {
         right: 0;
     }
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-.breadcrumbs ol a {
-  color: rgba(255, 255, 255, 0.8);
-  transition: 0.3s;
-}
-
-.breadcrumbs ol a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #fff;
-  content: "/";
 }
 
 /*--------------------------------------------------------------
@@ -1210,31 +1212,13 @@ section {
 /*--------------------------------------------------------------
 # Alt Services Section
 --------------------------------------------------------------*/
-.alt-services .img-bg {
+.alt-services .image {
   background-size: cover;
   background-position: center center;
   min-height: 400px;
 }
 
-.alt-services h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--color-secondary);
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
 
-.alt-services h3:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: var(--color-primary);
-  left: 0;
-  bottom: 0;
-}
 
 .alt-services .icon-box {
   margin-top: 50px;
@@ -1285,19 +1269,6 @@ section {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about h2 {
-  font-size: 48px;
-  font-weight: 700;
-  font-family: var(--font-secondary);
-  margin: 30px 0;
-}
-
-@media (min-width: 991px) {
-  .about h2 {
-    max-width: 65%;
-    margin: 0 0 70px 0;
-  }
-}
 
 .about .our-story {
   padding: 40px;
@@ -1310,18 +1281,7 @@ section {
   }
 }
 
-.about .our-story h4 {
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #838893;
-}
 
-.about .our-story h3 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: var(--color-secondary);
-}
 
 .about .our-story p:last-child {
   margin-bottom: 0;
@@ -1371,10 +1331,9 @@ section {
 @media (min-width: 992px) {
   .about .about-img {
     position: absolute;
-    padding: 10px;
-    border-radius: 5px;
     top: 0;
     right: 0;
+    background-position: 20%;
   }
 }
 
@@ -1390,7 +1349,6 @@ section {
 .stats-counter .stats-item i {
   font-size: 42px;
   line-height: 0;
-  margin-right: 20px;
   color: var(--color-primary);
 }
 
@@ -1405,6 +1363,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: var(--font-primary);
+  font-weight: 600;
   font-size: 14px;
 }
 
@@ -1417,7 +1376,6 @@ section {
 
 .team .member .member-img {
   margin: 0 80px;
-  border-radius: 50%;
   overflow: hidden;
   position: relative;
 }
