@@ -44,7 +44,9 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
-
+.gss-text-line{
+    font-size: 1.08rem;
+}
 .gss-title{
     font-size: 28px;
     font-weight: 700;
@@ -75,9 +77,12 @@ h6 {
 }
 .img-bg:before {
     content: "";
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     inset: 0;
+}
+.tailored-solutions {
+    padding-left: 8rem;
 }
 /*--------------------------------------------------------------
 # Fonts
@@ -116,6 +121,9 @@ section {
     section {
         padding: 40px 0;
     }
+    .tailored-solutions {
+        padding-left: 1.5rem;
+    }
 }
 
 .section-bg {
@@ -128,11 +136,10 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 60px;
 }
 
-.section-header h2 {
-  font-size: 32px;
+.section-header h2, .section-header .title {
   font-weight: 700;
   position: relative;
   color: #2e3135;
@@ -140,7 +147,7 @@ section {
   margin-bottom: 30px;
 }
 
-.section-header h2:after {
+.section-header h2:after, .section-header .title:after  {
     content: "";
     position: absolute;
     display: block;
@@ -309,7 +316,7 @@ section {
 .header {
   z-index: 997;
   position: absolute;
-  padding: 20px 0;
+  padding: 15px 0;
   top: 0;
   left: 0;
   right: 0;
@@ -606,7 +613,7 @@ section {
 --------------------------------------------------------------*/
 .call-to-action {
     background-color: var(--color-default);
-    padding: 30px;
+    padding: 30px 0;
   }
 
   .call-to-action-text {
@@ -627,13 +634,13 @@ section {
     padding: 30px;
   }
 
-  .call-to-action .call-to-action-btn{
+  .call-to-action-btn{
     background: transparent !important;
     color: #fff !important;
     border: solid 2px var(--color-primary) !important;
   }
 
-  .call-to-action .call-to-action-btn:hover{
+    .call-to-action-btn:hover{
     background: var(--color-primary) !important;
     color: #fff !important;
   }
@@ -1285,7 +1292,6 @@ section {
 
 .about .our-story {
   padding: 40px;
-  background-color: #f5f6f7;
 }
 
 @media (min-width: 991px) {
@@ -1300,50 +1306,14 @@ section {
   margin-bottom: 0;
 }
 
-.about ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.about ul li {
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
-}
-
-.about ul i {
-  font-size: 20px;
-  margin-right: 4px;
-  color: var(--color-primary);
-}
-
-.about .watch-video i {
-  font-size: 32px;
-  transition: 0.3s;
-  color: var(--color-primary);
-}
-
-.about .watch-video a {
-  font-weight: 600;
-  color: var(--color-secondary);
-  margin-left: 8px;
-  transition: 0.3s;
-}
-
-.about .watch-video:hover a {
-  color: var(--color-primary);
-}
-
 .about .about-img {
-  min-height: 600px;
+  min-height: 500px;
   background-size: cover;
   background-position: center;
 }
 
 @media (min-width: 992px) {
   .about .about-img {
-        min-height: 350px;
         background-position: 20%;
     }
 }
@@ -1354,17 +1324,17 @@ section {
 .stats-counter .stats-item {
   background: #fff;
   box-shadow: 0px 0 30px rgba(82, 86, 94, 0.05);
-  padding: 30px;
 }
 
 .stats-counter .stats-item i {
   font-size: 42px;
   line-height: 0;
+  display: none;
   color: var(--color-primary);
 }
 
 .stats-counter .stats-item span {
-  font-size: 36px;
+   font-size: 4rem;
   display: block;
   font-weight: 600;
   color: var(--color-secondary);
@@ -1930,7 +1900,7 @@ section {
 
 .hero .carousel {
   width: 100%;
-  min-height: calc(100vh - 50px);
+  min-height: 430px;
   padding: 80px 0;
   margin: 0;
   position: relative;
@@ -1940,7 +1910,8 @@ section {
   position: absolute;
   inset: 0;
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
+  background-position: 100% 6%;
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
@@ -1993,7 +1964,7 @@ section {
   font-size: 18px;
 }
 
-.hero .info .btn-get-started {
+/* .hero .info .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
@@ -2009,7 +1980,7 @@ section {
 
 .hero .info .btn-get-started:hover {
   background: var(--color-primary);
-}
+} */
 
 .hero .carousel-control-prev {
   justify-content: start;

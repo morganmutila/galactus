@@ -7,7 +7,7 @@
     <main id="main">
 
         <x-breadcrumb>
-            About Galactus
+            About {{ config('app.name') }}
         </x-breadcrumb>
 
         <!-- ======= About Section ======= -->
@@ -17,34 +17,51 @@
                 <div class="row position-relative">
 
                     <div class="col-lg-7">
-                        <div class="our-story bg-white pt-0 ps-0 pe-0 pe-md-3">
-                            <h2 class="gss-title text-capitalize">Your safety partner</h2>
-                            <p class="lead">
+                        <div class="our-story pt-0 ps-0 pe-0 pe-md-3">
+                            <h2 class="gss-title text-capitalize">Our Company</h2>
+                            <p class="lh-base gss-text-line">
                                 Galactus Safety Solutions Limited, founded by Mbachi Ngulube, is a leading provider of
                                 comprehensive safety solutions, committed to ensuring the well-being of individuals and
                                 organizations.
                             </p>
-                            <p class="lh-base">
+                            <p class="lh-base gss-text-line">
                                 With a strong focus on delivering excellence, Galactus Safety Solutions Limited
                                 has been serving clients since its establishment and is registered with the Patents and Companies
                                 Registration Agency (PACRA) under entity number 120220031661, guaranteeing its legitimacy and professionalism.
                             </p>
-                            <p class="lh-base">
-                                Our dedicated team of safety experts leverages extensive industry knowledge and experience to deliver tailored safety
-                                services, including safety assessments, training programs, consulting, and equipment supply. We are passionately committed
-                                to fostering a culture of safety, empowering our clients to mitigate risks, comply with regulations, and create a secure working environment.
-                                Partner with Galactus Safety Solutions Limited to ensure the highest standards of safety and protect what matters most.
-                            </p>
 
-
-                            <div class="watch-video d-flex align-items-center position-relative">
-                                <i class="bi bi-play-circle"></i>
-                                <a href="https://www.youtube.com" class="glightbox stretched-link">Watch Video</a>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-5 about-img" style="background-image: url({{ asset('img/about.jpg') }});"></div>
+                    <div class="col-lg-5 about-img" style="background-image: url({{ asset('img/about-1.jpg') }});"></div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+
+        <!-- ======= About Section 2 ======= -->
+        <section id="about" class="about section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row position-relative">
+                    <div class="col-lg-5 about-img order-2 order-md-1" style="background-image: url({{ asset('img/about-2.jpg') }});" data-aos="fade-up" data-aos-delay="300"></div>
+
+                    <div class="col-lg-7 order-1 order-md-2">
+                        <div class="our-story pt-0 pe-0 ps-0 ps-md-3" data-aos="fade-up" data-aos-delay="100">
+                            <h2 class="gss-title text-capitalize mt-3 mt-mb-0">Industrial Safety Professionals</h2>
+                            <p class="lh-base gss-text-line">Our dedicated team of safety experts leverages extensive industry knowledge
+                            and experience to deliver tailored safety services, including safety assessments,
+                            training programs, consulting, and equipment supply. We are passionately committed to
+                            fostering a culture of safety, empowering our clients to mitigate risks, comply with
+                            regulations, and create a secure working environment. Partner with Galactus Safety Solutions
+                            Limited to ensure the highest standards of safety and protect what matters most.
+                            <p>
+
+                        </div>
+                    </div>
 
                 </div>
 
@@ -54,15 +71,19 @@
 
         <!-- ======= Stats Counter Section ======= -->
         <section id="stats-counter" class="stats-counter img-bg" style="background-image: url('{{ asset('img/img-bg-2.jpg') }}');">
-                <div class="container">
+                <div class="container position-relative">
 
-                    <div class="row gy-2 position-relative justify-content-center align-items-center">
+                    <div class="section-header pb-0">
+                        <h3 class="title text-white mb-0">Our Statistics</h3>
+                    </div>
+
+                    <div class="row gy-2 justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
 
                         <div class="col-md-3 col-6">
                             <div class="stats-item bg-transparent text-white text-center d-flex flex-column  align-items-center w-100 h-100">
                                 <i class="bi bi-emoji-smile flex-shrink-0"></i>
                                 <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Happy Clients</p>
+                                <p>Happy Clients<br>A testament to our commitment to exceptional service and client satisfaction.</p>
                             </div>
                         </div><!-- End Stats Item -->
 
@@ -70,7 +91,7 @@
                             <div class="stats-item bg-transparent text-white text-center d-flex flex-column  align-items-center w-100 h-100">
                                 <i class="bi bi-journal-richtext flex-shrink-0"></i>
                                 <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Projects</p>
+                                <p>Projects<br>Showcasing Our Successful Safety Solutions and Project Execution Expertise.</p>
                             </div>
                         </div><!-- End Stats Item -->
 
@@ -79,7 +100,7 @@
                             <div class="stats-item bg-transparent text-white text-center d-flex flex-column align-items-center w-100 h-100">
                                 <i class="bi bi-people flex-shrink-0"></i>
                                 <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Hard Workers</p>
+                                <p>Professional Workers<br>A Dedicated Team of Safety Experts, Committed to Your Safety.</p>
                             </div>
                         </div><!-- End Stats Item -->
 
@@ -87,7 +108,7 @@
                             <div class="stats-item bg-transparent text-white text-center d-flex flex-column align-items-center w-100 h-100">
                                 <i class="bi bi-bezier flex-shrink-0"></i>
                                 <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Solutions</p>
+                                <p>Solutions<br>Comprehensive safety assessments to specialized training programs and expert consulting services.</p>
                             </div>
                         </div><!-- End Stats Item -->
 
@@ -105,7 +126,7 @@
 
                     <div class="col-lg-6 d-flex flex-column justify-content-center">
                         <h2 class="gss-title">Why Choose Galactus</h2>
-                        <p class="lead">Choose us as your safety company, and let us help you create a safer work environment, mitigate risks, and protect your most valuable assets—your employees.</p>
+                        <p class="gss-text-line">Choose us as your safety company, and let us help you create a safer work environment, mitigate risks, and protect your most valuable assets—your employees.</p>
 
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                         <i class="bi bi-patch-check-fill flex-shrink-0"></i>
@@ -143,6 +164,21 @@
                 </div>
             </div>
         </section><!-- End Why choose us Section -->
+
+        <!-- ======= Download Company Profile ======= -->
+        <section class="img-bg text-center d-flex justify-content-center align-items-center" style="background-image: url('{{ asset('img/download-profile-bg.jpg') }}');">
+            <div class="container position-relative">
+                <div class="row gy-2 position-relative justify-content-center align-items-center">
+                    <div class="col">
+                        <h3 class="text-white mb-4">Download {{ Config('app.name') }} Safety Company Profile</h3>
+                        <a href="{{ route('home') }}" class="btn call-to-action-btn rounded-0 text-white px-3 d-inline-flex align-items-center">
+                            <i class="bi bi-file-earmark-arrow-down fs-4 me-2"></i><span>Download Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Download Company Profile -->
 
         @include('partials._team')
 

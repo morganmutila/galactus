@@ -27,10 +27,10 @@
                     <h4>Company</h4>
                     <ul>
                         <li><a href="{{ route('about') }}">About {{ Config('app.name') }}</a></li>
-                        <li><a href="{{ route('services') }}">Services</a></li>
+                        <li><a href="{{ route('services') }}">Solutions</a></li>
                         <li><a href="{{ route('projects') }}">Projects</a></li>
                         <li><a href="{{ route('home') }}">Brand</a></li>
-                        <li><a href="{{ route('blog') }}">Insights</a></li>
+                        <li><a href="{{ route('blog') }}">News</a></li>
                     </ul>
                 </div><!-- End footer links column-->
 

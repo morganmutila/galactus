@@ -1,10 +1,9 @@
 <!-- ======= Latest news Section ======= -->
-<section id="recent-blog-posts" class="recent-blog-posts">
+<section id="recent-blog-posts" class="recent-blog-posts section-bg">
     <div class="container" data-aos="fade-up">
 
         <div class=" section-header">
-            <h2>Insights</h2>
-            <p>The latest insights and updates</p>
+            <h2>News & Insights</h2>
         </div>
 
         <div class="row gy-5">
