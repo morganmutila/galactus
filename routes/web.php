@@ -7,9 +7,9 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+Route::get('/solutions', function () {
+    return view('solutions');
+})->name('solutions');
 
 Route::get('/projects', function () {
     return view('projects');
@@ -23,6 +23,14 @@ Route::get('/about-us', function () {
     return view('about-us');
 })->name('about');
 
+Route::get('/industries', function () {
+    return view('industries');
+})->name('industries');
+
+Route::get('/what-is-industrial-safety', function () {
+    return view('industrial-safety');
+})->name('safety');
+
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
@@ -30,7 +38,7 @@ Route::get('/blog', function () {
 
 // Admin Routes
 Route::prefix('/admin')->group(function(){
-    Route::get('dashboard', [AdminController::class, 'dashboard'])->name('dashboard');  
+    Route::get('dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
 });
 
 

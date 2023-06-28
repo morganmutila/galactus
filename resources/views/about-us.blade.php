@@ -10,15 +10,16 @@
             About {{ config('app.name') }}
         </x-breadcrumb>
 
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
+        <!-- ======= Our company Section ======= -->
+        <section>
+            <div class="container-md-fluid" data-aos="fade-up">
 
                 <div class="row position-relative">
 
-                    <div class="col-lg-7">
-                        <div class="our-story pt-0 ps-0 pe-0 pe-md-3">
-                            <h2 class="gss-title text-capitalize">Our Company</h2>
+                    <div class="our-company col-md-6">
+                        <div class="pt-0 ps-0 pe-0 pe-md-3">
+                            <h6 class="fw-bold text-uppercase">Who we are</h6>
+                            <h2 class="gss-title text-capitalize fs-1">About Our<br>Company</h2>
                             <p class="lh-base gss-text-line">
                                 Galactus Safety Solutions Limited, founded by Mbachi Ngulube, is a leading provider of
                                 comprehensive safety solutions, committed to ensuring the well-being of individuals and
@@ -33,100 +34,119 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5 about-img" style="background-image: url({{ asset('img/about-1.jpg') }});"></div>
+                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                        <img src="{{ asset('img/about-1.jpg') }}" alt="" class="img-fluid">
+                    </div>
 
                 </div>
 
             </div>
-        </section>
-        <!-- End About Section -->
+        </section><!-- End our company section -->
 
 
-        <!-- ======= About Section 2 ======= -->
-        <section id="about" class="about section-bg">
-            <div class="container" data-aos="fade-up">
+        <!-- ======= Proffetional experts ======= -->
+        <section class="section-bg">
+            <div class="container-md-fluid" data-aos="fade-up">
 
                 <div class="row position-relative">
-                    <div class="col-lg-5 about-img order-2 order-md-1" style="background-image: url({{ asset('img/about-2.jpg') }});" data-aos="fade-up" data-aos-delay="300"></div>
+                    <div class="col-md-5  order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+                        <img src="{{ asset('img/about-2.jpg') }}" alt="" class="img-fluid">
+                    </div>
 
-                    <div class="col-lg-7 order-1 order-md-2">
-                        <div class="our-story pt-0 pe-0 ps-0 ps-md-3" data-aos="fade-up" data-aos-delay="100">
-                            <h2 class="gss-title text-capitalize mt-3 mt-mb-0">Industrial Safety Professionals</h2>
+                    <div class="professionals offset-md-1 col-md-6 order-1 order-md-2">
+                        <div class="pt-0 pe-0 ps-0 ps-md-3" data-aos="fade-up" data-aos-delay="100">
+                            <h6 class="fw-bold text-uppercase">our experts</h6>
+                            <h2 class="gss-title text-capitalize mt-3 mt-mb-0 fs-1">Industrial Safety<br>Professionals</h2>
                             <p class="lh-base gss-text-line">Our dedicated team of safety experts leverages extensive industry knowledge
                             and experience to deliver tailored safety services, including safety assessments,
-                            training programs, consulting, and equipment supply. We are passionately committed to
-                            fostering a culture of safety, empowering our clients to mitigate risks, comply with
+                            training programs, consulting, and equipment supply. </p>
+                            <p>We are passionately committed to fostering a culture of safety, empowering our clients to mitigate risks, comply with
                             regulations, and create a secure working environment. Partner with Galactus Safety Solutions
                             Limited to ensure the highest standards of safety and protect what matters most.
                             <p>
-
                         </div>
                     </div>
 
                 </div>
 
             </div>
-        </section>
-        <!-- End About Section -->
+        </section><!-- End proffetional experts -->
+
+
+        <!-- ======= Industries Served Section ======= -->
+        <section>
+            <div class="container-md-fluid">
+                <div class="row position-relative">
+                    <div class="tailored-solutions col-md-6">
+                        <div class="pt-0 ps-0 pe-0 pe-md-3">
+                            <h6 class="fw-bold text-uppercase">sectors we serve</h6>
+                            <h2 class="gss-title fs-1 text-capitalize">Tailored Industry<br>Solutions</h2>
+                            <p class="gss-text-line">At Galactus Safety Solutions Limited, we proudly serve a diverse range of sectors, providing comprehensive safety solutions tailored to the unique needs and challenges of each industry.</p>
+                            <p class="gss-text-line">From construction and manufacturing to oil and gas, healthcare, transportation, and beyond, our expertise extends across various sectors, ensuring the highest standards of safety, compliance, and peace of mind for our valued clients. </p>
+                            <p class="gss-text-line">With a deep understanding of industry-specific risks and regulations, we deliver customized safety programs, training, and consulting services that empower organizations to create safe, secure, and productive work environments in their respective sectors.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                        <img src="{{ asset('img/sectors-served.jpg') }}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Industries Served experts -->
 
         <!-- ======= Stats Counter Section ======= -->
         <section id="stats-counter" class="stats-counter img-bg" style="background-image: url('{{ asset('img/img-bg-2.jpg') }}');">
-                <div class="container position-relative">
+            <div class="container position-relative">
 
-                    <div class="section-header pb-0">
-                        <h3 class="title text-white mb-0">Our Statistics</h3>
-                    </div>
+                <div class="section-header pb-0">
+                    <h3 class="title text-white mb-0">Our Statistics</h3>
+                </div>
 
-                    <div class="row gy-2 justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-2 justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
 
-                        <div class="col-md-3 col-6">
-                            <div class="stats-item bg-transparent text-white text-center d-flex flex-column  align-items-center w-100 h-100">
-                                <i class="bi bi-emoji-smile flex-shrink-0"></i>
-                                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Happy Clients<br>A testament to our commitment to exceptional service and client satisfaction.</p>
-                            </div>
-                        </div><!-- End Stats Item -->
+                    <div class="col-md-3 col-6">
+                        <div class="stats-item bg-transparent text-white text-center d-flex flex-column justify-content-start align-items-center">
+                            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter text-white"></span>
+                            <p>Happy Clients<br>A testament to our commitment to exceptional service and client satisfaction.</p>
+                        </div>
+                    </div><!-- End Stats Item -->
 
-                        <div class="col-md-3 col-6">
-                            <div class="stats-item bg-transparent text-white text-center d-flex flex-column  align-items-center w-100 h-100">
-                                <i class="bi bi-journal-richtext flex-shrink-0"></i>
-                                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Projects<br>Showcasing Our Successful Safety Solutions and Project Execution Expertise.</p>
-                            </div>
-                        </div><!-- End Stats Item -->
+                    <div class="col-md-3 col-6">
+                        <div class="stats-item bg-transparent text-white text-center d-flex flex-column justify-content-start align-items-center">
+                            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter text-white"></span>
+                            <p>Projects<br>Showcasing Our Successful Safety Solutions and Project Execution Expertise.</p>
+                        </div>
+                    </div><!-- End Stats Item -->
 
 
-                        <div class="col-md-3 col-6">
-                            <div class="stats-item bg-transparent text-white text-center d-flex flex-column align-items-center w-100 h-100">
-                                <i class="bi bi-people flex-shrink-0"></i>
-                                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Professional Workers<br>A Dedicated Team of Safety Experts, Committed to Your Safety.</p>
-                            </div>
-                        </div><!-- End Stats Item -->
+                    <div class="col-md-3 col-6">
+                        <div class="stats-item bg-transparent text-white text-center d-flex flex-column justify-content-start align-items-center">
+                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter text-white"></span>
+                            <p>Professional Workers<br>A Dedicated Team of Safety Experts, Committed to Your Safety.</p>
+                        </div>
+                    </div><!-- End Stats Item -->
 
-                        <div class="col-md-3 col-6">
-                            <div class="stats-item bg-transparent text-white text-center d-flex flex-column align-items-center w-100 h-100">
-                                <i class="bi bi-bezier flex-shrink-0"></i>
-                                <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter text-white"></span>
-                                <p>Solutions<br>Comprehensive safety assessments to specialized training programs and expert consulting services.</p>
-                            </div>
-                        </div><!-- End Stats Item -->
-
-                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="stats-item bg-transparent text-white text-center d-flex flex-column justify-content-start align-items-center">
+                            <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter text-white"></span>
+                            <p>Solutions<br>Comprehensive safety assessments to specialized training programs and expert consulting services.</p>
+                        </div>
+                    </div><!-- End Stats Item -->
 
                 </div>
+
+            </div>
         </section><!-- End Stats Counter Section -->
 
+
         <!-- ======= Why choose us Section ======= -->
-        <section id="alt-services" class="alt-services">
-            <div class="container" data-aos="fade-up">
+        <section class="alt-services">
+            <div class="container-fluid" data-aos="fade-up">
 
                 <div class="row justify-content-around gy-4">
-                    <div class="col-lg-5 image" style="background-image: url({{ asset('img/why-wok-with-us.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
 
-                    <div class="col-lg-6 d-flex flex-column justify-content-center">
-                        <h2 class="gss-title">Why Choose Galactus</h2>
-                        <p class="gss-text-line">Choose us as your safety company, and let us help you create a safer work environment, mitigate risks, and protect your most valuable assets—your employees.</p>
+                    <div class="col-md-6 why-us d-flex flex-column justify-content-center">
+                        <h6 class="fw-bold text-uppercase">Work with us</h6>
+                        <h2 class="gss-title fs-1 text-capitalize">Why Choose<br>Galactus</h2>
 
                         <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                         <i class="bi bi-patch-check-fill flex-shrink-0"></i>
@@ -161,24 +181,25 @@
                         </div><!-- End Icon Box -->
 
                     </div>
+                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                        <img src="{{ asset('img/why-wok-with-us.jpg') }}" alt="" class="img-fluid">
+                    </div>
+
                 </div>
             </div>
         </section><!-- End Why choose us Section -->
 
         <!-- ======= Download Company Profile ======= -->
-        <section class="img-bg text-center d-flex justify-content-center align-items-center" style="background-image: url('{{ asset('img/download-profile-bg.jpg') }}');">
-            <div class="container position-relative">
-                <div class="row gy-2 position-relative justify-content-center align-items-center">
-                    <div class="col">
-                        <h3 class="text-white mb-4">Download {{ Config('app.name') }} Safety Company Profile</h3>
-                        <a href="{{ route('home') }}" class="btn call-to-action-btn rounded-0 text-white px-3 d-inline-flex align-items-center">
-                            <i class="bi bi-file-earmark-arrow-down fs-4 me-2"></i><span>Download Profile</span>
-                        </a>
-                    </div>
+        <section id="cta" class="cta">
+            <div class="container aos-init aos-animate" data-aos="zoom-in">
+                <div class="text-start">
+                    <h3>Download our company profile</h3>
+                    <p>Download the company profile to learn more about Galactus.</p>
+                    <a class="cta-btn" href="#">Download Profile</a>
                 </div>
             </div>
-        </section>
-        <!-- End Download Company Profile -->
+        </section><!-- End Download Company Profile -->
+
 
         @include('partials._team')
 

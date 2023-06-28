@@ -6,28 +6,29 @@
                 <div class="col-lg-4 col-md-5 text-center text-md-start order-md-3">
                     <div class="footer-info text-center">
                         <a href="{{ route('home') }}" class="logo d-flex align-items-center justify-content-center">
-                            <img src="{{ asset('img/logo-white.png') }}"/>
+                            <img src="{{ asset('img/logo-white.png') }}" height="90px"/>
                         </a>
-                        <p class="text-sm px-md-4 px-lg-5">We are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support to ensure the well-being of your workforce.</p>
-                        <a href="#" class="btn rounded-1 text-white my-3">Request a quote</a>
+                        <p class="text-sm px-md-4 px-lg-5">We are dedicated to providing comprehensive safety solutions, expert guidance, and reliable support.</p>
+                        {{-- <a href="#" class="btn rounded-1 text-white my-3">Request a quote</a> --}}
                     </div>
                 </div><!-- End footer info column-->
 
                 <div class="col-lg-2 col-md-4 text-center text-md-start footer-links order-md-4">
-                    <h4>Contact</h4>
-                    <p>
-                        Kamwala South <br>
-                        333955/10/1, Lusaka, Zambia<br><br>
-                        <strong>Phone:</strong> +260976249140<br>
-                        <strong>Email:</strong> info@galactussafety.com<br>
-                    </p>
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                        <li><a href="{{ route('contact') }}">Request a quote</a></li>
+                        <li><a href="{{ route('home') }}">Careers</a></li>
+                    </ul>
                 </div><!-- End footer links column-->
 
                 <div class="col-lg-2 col-md-3 text-center text-md-start footer-links order-md-1">
                     <h4>Company</h4>
                     <ul>
                         <li><a href="{{ route('about') }}">About {{ Config('app.name') }}</a></li>
-                        <li><a href="{{ route('services') }}">Solutions</a></li>
+                        <li><a href="{{ route('safety') }}">What is Industrial Safety?</a></li>
+                        <li><a href="{{ route('solutions') }}">Solutions</a></li>
+                        <li><a href="{{ route('industries') }}">Industries Served</a></li>
                         <li><a href="{{ route('projects') }}">Projects</a></li>
                         <li><a href="{{ route('home') }}">Brand</a></li>
                         <li><a href="{{ route('blog') }}">News</a></li>
@@ -45,7 +46,7 @@
                 <div class="col-lg-2 col-md-4 text-center text-md-start footer-links order-md-5">
                     <h4>Follow Us</h4>
                     <p>Follow {{ Config('app.name') }} via our social channels for the latest news and updates.</p>
-                    <div class="social-links d-flex justify-content-center mt-3">
+                    <div class="social-links d-flex justify-content-between mt-3">
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
                         <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-youtube"></i></a>
@@ -56,10 +57,10 @@
         </div>
     </div>
 
-    <div class="footer-legal text-center position-relative">
-        <div class="container">
-            <div class="copyright">
-                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. <br class="d-md-none">All Rights Reserved.
+    <div class="footer-legal text-center text-md-start position-relative">
+        <div class="copyright">
+            <div class="container">
+                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. <br class="d-md-none">All Rights Reserved. <span class="d-none d-md-inline">{{ Config('app.name') }} is registered with the Patents and Companies Registration Agency (PACRA) under entity number 120220031661.</span>
             </div>
         </div>
     </div>

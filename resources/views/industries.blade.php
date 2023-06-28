@@ -11,7 +11,7 @@
         </x-breadcrumb>
 
         <!-- ======= Services Section ======= -->
-        @include('partials._services')
+        @include('partials._solutions')
 
     </main>
 

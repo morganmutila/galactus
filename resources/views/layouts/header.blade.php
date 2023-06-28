@@ -10,9 +10,9 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="{{ route('home') }}" class="@if (request()->RouteIs('home')) ? active : '' @endif">Home</a></li>
-                    <li><a href="{{ route('services') }}" class="@if (request()->RouteIs('services')) ? active : '' @endif">Solutions</a></li>
+                    <li><a href="{{ route('safety') }}" class="@if (request()->RouteIs('safety')) ? active : '' @endif">Safety Info</a></li>
+                    <li><a href="{{ route('solutions') }}" class="@if (request()->RouteIs('solutions')) ? active : '' @endif">Solutions</a></li>
                     <li><a href="{{ route('projects') }}" class="@if (request()->RouteIs('projects')) ? active : '' @endif">Projects</a></li>
-                    <li><a href="{{ route('projects') }}" class="@if (request()->RouteIs('projects')) ? active : '' @endif">Industries Served</a></li>
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-caret-down-fill fs-6"></i></a>
                     <ul>
                         <li><a href="{{ route('about') }}" class="@if (request()->RouteIs('about')) ? active : '' @endif">About us</a></li>

@@ -1,43 +1,60 @@
 <!-- ======= Why choose us Section ======= -->
-<section id="alt-services" class="alt-services">
+<section id="alt-services" class="alt-services bg-secondary text-white">
     <div class="container" data-aos="fade-up">
+        <div class="section-header pb-0">
+            <h2 class="text-white">Why Choose Galactus</h2>
+        </div>
 
-        <div class="row justify-content-around gy-4">
-            <div class="col-lg-6 image" style="background-image: url({{ asset('img/why-wok-with-us-2.jpg') }});" data-aos="zoom-in" data-aos-delay="100"></div>
+        <div class="row justify-content-between gy-4">
 
-            <div class="col-lg-5 d-flex flex-column justify-content-center">
-                <h2 class="gss-title">Why Choose Galactus</h2>
-                <p class="lead">Choose us as your safety company, and let us help you create a safer work environment, mitigate risks, and protect your most valuable assets—your employees.</p>
-
-                <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="100">
-                    <i class="bi bi-patch-check-fill flex-shrink-0"></i>
-                    <div>
-                        <h4>Expertise and Experience</h4>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="fs-1">
+                        <i class="fa-solid fa-mountain-city flex-shrink-0"></i>
                     </div>
-                </div><!-- End Icon Box -->
-
-                <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="200">
-                    <i class="bi bi-easel-fill flex-shrink-0"></i>
-                    <div>
-                        <h4>Comprehensive Safety Solutions</h4>
+                    <div class="px-md-4">
+                        <h5 class="py-3 text-primary">Expertise and Experience</h5>
+                        <p class="gss-text-sm">With years of experience in the safety industry, our team of experts possesses the knowledge and skills necessary to address your safety needs effectively.</p>
                     </div>
-                </div><!-- End Icon Box -->
+                </div>
+            </div><!-- End Service Item -->
 
-                <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="300">
-                    <i class="bi bi-people-fill flex-shrink-0"></i>
-                    <div>
-                        <h4>Client-Focused Approach</h4>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="fs-1">
+                        <i class="bi bi-easel-fill flex-shrink-0"></i>
                     </div>
-                </div><!-- End Icon Box -->
-
-                <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="400">
-                    <i class="fa fa-helmet-safety  flex-shrink-0"></i>
-                    <div>
-                        <h4>Industry Experience</h4>
+                    <div class="px-md-4">
+                        <h5 class="py-3 text-primary">Comprehensive Safety Solutions</h5>
+                        <p class="gss-text-sm">We offer a wide range of safety services tailored to meet the specific requirements of your industry.</p>
                     </div>
-                </div><!-- End Icon Box -->
+                </div>
+            </div><!-- End Icon Box -->
 
-            </div>
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="fs-1">
+                        <i class="bi bi-people-fill flex-shrink-0"></i>
+                    </div>
+                    <div class="px-md-4">
+                        <h5 class="py-3 text-primary">Client-Focused Approach</h5>
+                        <p class="gss-text-sm">We prioritize our clients and their unique needs. Our team takes the time to understand your organization, its operations, and safety challenges.</p>
+                    </div>
+                </div>
+            </div><!-- End Icon Box -->
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="fs-1">
+                        <i class="fa fa-helmet-safety  flex-shrink-0"></i>
+                    </div>
+                    <div class="px-md-4">
+                        <h5 class="py-3 text-primary">Industry Safety Experience</h5>
+                        <p class="gss-text-sm">We have extensive experience serving various industries, including construction, manufacturing, healthcare, transportation, and more.</p>
+                    </div>
+                </div>
+            </div><!-- End Icon Box -->
+
         </div>
 
     </div>

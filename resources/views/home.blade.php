@@ -15,7 +15,7 @@
 
         @include('partials._why-choose-us')
 
-        {{-- @include('partials._blog-posts') --}}
+        @include('partials._blog-posts')
 
     </main>
 
