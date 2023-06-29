@@ -28,7 +28,7 @@
                     <ul>
                         <li><a href="{{ route('about') }}">About {{ Config('app.name') }}</a></li>
                         <li><a href="{{ route('solutions') }}">Solutions</a></li>
-                        <li><a href="{{ route('industries') }}">Industries we serve</a></li>
+                        <li><a href="{{ route('industries') }}">Industrial Solutions</a></li>
                         <li><a href="{{ route('projects') }}">Projects</a></li>
                         <li><a href="{{ route('blog') }}">News</a></li>
                     </ul>

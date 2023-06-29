@@ -144,23 +144,22 @@ section {
 }
 
 .position-normal{
-  position: initial !important;
+    position: initial !important;
 }
 
 .section-header {
-  text-align: center;
-  padding-bottom: 40px;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .section-header h2, .section-header .title {
-  font-weight: 700;
-  position: relative;
-  color: #2e3135;
-  line-height: 4rem;
-  margin-bottom: 30px;
+    font-weight: 700;
+    position: relative;
+    color: #2e3135;
+    margin-bottom: 30px;
 }
 
-.section-header h2:after, .section-header .title:after  {
+.section-header h2:after {
     content: "";
     position: absolute;
     display: block;
@@ -169,6 +168,7 @@ section {
     background: var(--color-primary);
     inset: 100% 0 0;
     margin: auto;
+    top: 150%;
 }
 
 #slider-industry-solutions .swiper-slide{
@@ -512,7 +512,7 @@ section {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 350px;
+    max-width: 340px;
     bottom: 0;
     transition: 0.3s;
     z-index: 9997;
@@ -533,15 +533,14 @@ section {
   .navbar a:focus {
     display: flex;
     align-items: center;
-    letter-spacing: 1px;
     justify-content: space-between;
-    padding: 16px 20px;
+    padding: 13px 20px;
     font-family: var(--font-primary);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: 0.3s;
   }
 
@@ -571,7 +570,11 @@ section {
   .navbar .dropdown>.dropdown-active,
   .navbar .dropdown .dropdown>.dropdown-active {
     display: block;
-  }
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
   .mobile-nav-show {
     position: relative;
@@ -592,7 +595,7 @@ section {
     transition: 0.5s;
     position: fixed;
     right: 20px;
-    top: 30px;
+    top: 20px;
     z-index: 9999;
   }
 
@@ -938,9 +941,9 @@ section {
 --------------------------------------------------------------*/
 
 .features .nav-link {
-  padding: 1.2rem 1rem;
+  padding: .5rem 1rem;
   transition: 0.3s;
-  background-color: var(--color-secondary);
+  background-color: var(--color-default);
   border-radius: 0;
   display: flex;
   align-items: start;
@@ -957,7 +960,7 @@ section {
 
 .features .nav-link h4 {
   font-size: .9rem;
-  margin-top: .8rem;
+  margin-top: .6rem;
   color: #fff;
 }
 
@@ -2597,7 +2600,7 @@ section {
 }
 
 .footer .footer-content .social-links a {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   display: inline-block;
   background: transparent;
   color: #fff;

@@ -7,9 +7,9 @@
 
     <main id="main">
         <div class="img-bg d-flex align-items-center bg-secondary text-white" style="background-image: url('{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}');">
-            <div class="container position-relative d-flex flex-column align-items-md-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-                <h2 class="fs-1 mb-4 text-white">What is Industrial Safety?</h2>
-                <p class="text-center gss-text-line d-none d-md-flex lh-base px-md-4 px-lg-5">Industrial safety refers to the measures and practices implemented to prevent accidents, injuries, and health hazards in industrial workplaces. It encompasses a wide range of protective measures, protocols, and training programs designed to safeguard the well-being of workers, protect the environment, and ensure regulatory compliance.</p>
+            <div class="container position-relative d-flex flex-column justify-content-center text-center align-items-md-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="fs-1 mb-4 mb-md-5 text-white">What is Industrial Safety?</h2>
+                <p class="text-center gss-text-line lh-base px-md-4 px-lg-5">Industrial safety refers to the measures and practices implemented to prevent accidents, injuries, and health hazards in industrial workplaces. It encompasses a wide range of protective measures, protocols, and training programs designed to safeguard the well-being of workers, protect the environment, and ensure regulatory compliance.</p>
             </div>
         </div><!-- End Breadcrumbs -->
 
@@ -18,81 +18,74 @@
             <div class="container">
 
                 <div class="section-header pb-5 mb-5" data-aos="fade-up" data-aos-delay="400">
-                    <h2 class="fs-1">The importance of industrial safety</h2>
+                    <h1 class="title">The importance of industrial safety</h1>
                     <p class="gss-text-line">Industrial safety is of paramount importance as it directly impacts the physical well-being of employees, the productivity of the workforce, and the overall success of an organization. By prioritizing industrial safety, companies can</p>
                 </div>
 
-                <div class="row py-4 align-items-center justify-content-end">
-                    <div class="col-md-5 offset-md-1">
-                        <div class="pt-0 ps-0 pe-0 pe-md-3" data-aos="fade-up">
+                <div class="row py-4 align-items-center justify-content-center justify-content-md-end">
+                    <div class="col-md-5 offset-md-1 order-2 order-md-1">
+                        <div class="pt-0 ps-0 pe-0 pe-md-3 text-md-start text-center" data-aos="fade-up">
                             <h2 class="mb-4">Prevent Workplace Accidents</h2>
                             <p class="lh-base gss-text-line">Industrial settings often involve heavy machinery, hazardous materials, and complex processes. Implementing robust safety measures helps minimize the risk of accidents, such as slips, falls, machinery-related incidents, and exposure to harmful substances.
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-5 order-1 order-md-2 col-6 offset-md-1" data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-shield-check text-primary" style="font-size: 10rem"></i>
                     </div>
-
                 </div>
 
-                <div class="row py-4 align-items-center justify-content-end">
-
-                    <div class="col-md-5 offset-md-2" data-aos="fade-up" data-aos-delay="200">
+                <div class="row py-4 align-items-center justify-content-center justify-content-md-end">
+                    <div class="col-md-5 order-1 order-md-2 col-6 offset-md-1" data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-lungs text-primary" style="font-size: 10rem"></i>
                     </div>
 
-                    <div class="col-md-5">
-                        <div class="pt-0 ps-0 pe-0 pe-md-3" data-aos="fade-up">
+                    <div class="col-md-5 order-1 order-md-2">
+                        <div class="pt-0 ps-0 pe-0 pe-md-3 text-md-start text-center" data-aos="fade-up">
                             <h2 class="mb-4">Protect Employee Health</h2>
                             <p class="lh-base gss-text-line">Industrial environments may expose workers to various health hazards, including noise, vibrations, chemical exposures, and ergonomic risks. Proper safety practices mitigate these risks, reducing the likelihood of work-related illnesses, occupational diseases, and long-term health complications.</p>
                         </div>
                     </div>
-
                 </div>
 
-                <div class="row py-4 align-items-center justify-content-end">
-                    <div class="col-md-5 offset-md-1">
-                        <div class="pt-0 ps-0 pe-0 pe-md-3" data-aos="fade-up">
+                <div class="row py-4 align-items-center justify-content-center justify-content-md-end">
+                    <div class="col-md-5 offset-md-1 order-2 order-md-1">
+                        <div class="pt-0 ps-0 pe-0 pe-md-3 text-md-start text-center" data-aos="fade-up">
                             <h2 class="mb-4">Enhance Productivity</h2>
                             <p class="lh-base gss-text-line">When employees feel safe and secure in their work environment, their morale and productivity increase. A strong safety culture fosters employee engagement, reduces absenteeism, and promotes a positive work atmosphere, resulting in higher levels of productivity and quality output.</p>
                         </div>
                     </div>
 
-                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-5 order-1 order-md-2 col-6 offset-md-1" data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-check-circle text-primary" style="font-size: 10rem"></i>
                     </div>
-
                 </div>
 
-                <div class="row py-4 align-items-center justify-content-end">
-
-                    <div class="col-md-5 offset-md-2" data-aos="fade-up" data-aos-delay="200">
+                <div class="row py-4 align-items-center justify-content-center justify-content-md-end">
+                    <div class="col-md-5 order-1 order-md-2 col-6 offset-md-1" data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-patch-check text-primary" style="font-size: 10rem"></i>
                     </div>
 
-                    <div class="col-md-5">
-                        <div class="pt-0 ps-0 pe-0 pe-md-3" data-aos="fade-up">
+                    <div class="col-md-5 order-1 order-md-2">
+                        <div class="pt-0 ps-0 pe-0 pe-md-3 text-md-start text-center" data-aos="fade-up">
                             <h2 class="mb-4">Ensure Regulatory Compliance</h2>
                             <p class="lh-base gss-text-line">Industrial sectors are subject to specific safety regulations and standards imposed by governmental bodies. Adhering to these regulations not only helps avoid legal complications and penalties but also demonstrates a commitment to ethical and responsible business practices.</p>
                         </div>
                     </div>
-
                 </div>
 
-                <div class="row py-4 align-items-center justify-content-end">
-                    <div class="col-md-5 offset-md-1">
-                        <div class="pt-0 ps-0 pe-0 pe-md-3" data-aos="fade-up">
+                <div class="row py-4 align-items-center justify-content-center justify-content-md-end">
+                    <div class="col-md-5 offset-md-1 order-2 order-md-1">
+                        <div class="pt-0 ps-0 pe-0 pe-md-3 text-md-start text-center" data-aos="fade-up">
                             <h2 class="mb-4">Preserve Reputation and Brand Image</h2>
                             <p class="lh-base gss-text-line">A company known for prioritizing industrial safety establishes itself as a reputable and trustworthy organization. Demonstrating a dedication to employee well-being and maintaining a safe workplace environment enhances the company's brand image and helps attract top talent.</p>
                         </div>
                     </div>
 
-                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-5 order-1 order-md-2 col-6 offset-md-1" data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-hand-thumbs-up text-primary" style="font-size: 10rem"></i>
                     </div>
-
                 </div>
 
             </div>
@@ -103,9 +96,8 @@
         <section class="constructions">
             <div class="container" data-aos="fade-up">
 
-                <div class="section-header pb-5 mb-5">
-                    <h2 class="fs-1">Key aspects of industrial safety</h2>
-                    <p class="gss-text-line">Industrial safety covers a broad spectrum of areas</p>
+                <div class="section-header">
+                    <h1 class="title">Key aspects of industrial safety</h1>
                 </div>
 
                 <div class="row gy-4">
@@ -197,13 +189,13 @@
         <section class="section-bg">
             <div class="container">
 
-                <div class="section-header pb-5 mb-5" data-aos="fade-up" data-aos-delay="400">
-                    <h2 class="fs-1">Partner with {{ Config('app.name') }} for safety solutions</h2>
-                    <p class="gss-text-line">At {{ Config('app.name') }} we are committed to promoting industrial safety and assisting organizations in achieving optimal safety standards. Through our comprehensive range of services, including safety assessments, training programs, consulting, and tailored safety solutions, we help businesses foster a culture of safety, minimize risks, and protect their most valuable asset—their employees.</p>
+                <div class="section-header" data-aos="fade-up" data-aos-delay="400">
+                    <h1 class="title">Partner with {{ Config('app.name') }} for safety solutions</h1>
                 </div>
+                <p class="gss-text-line text-center mb-4">At {{ Config('app.name') }} we are committed to promoting industrial safety and assisting organizations in achieving optimal safety standards. Through our comprehensive range of services, including safety assessments, training programs, consulting, and tailored safety solutions, we help businesses foster a culture of safety, minimize risks, and protect their most valuable asset—their employees.</p>
 
                 <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-                    <h5>Ready to get started with Galactus Safety Solutions?</h5>
+                    <h5 class="fw-bold">Ready to get started with Galactus Safety Solutions?</h5>
                     <a href="{{ route('home') }}" class="btn-get-started mt-4">Request a quote</a>
                 </div>
             </div>

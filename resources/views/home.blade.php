@@ -6,11 +6,11 @@
 
     <main id="main">
 
-        {{-- @include('partials._call-to-action')
+        @include('partials._call-to-action')
 
-        @include('partials._solutions') --}}
+        @include('partials._solutions')
 
-        @include('partials._sectors-served')
+        @include('partials._industrial-solutions')
 
         @include('partials._why-choose-us')
 

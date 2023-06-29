@@ -2,8 +2,8 @@
 <section id="recent-blog-posts" class="recent-blog-posts section-bg">
     <div class="container" data-aos="fade-up">
 
-        <div class=" section-header">
-            <h2>News & Insights</h2>
+        <div class="section-header">
+            <h2>Latest News & Insights for All Things Safety</h2>
         </div>
 
         <div class="row gy-5">

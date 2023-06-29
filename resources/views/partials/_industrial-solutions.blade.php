@@ -54,7 +54,7 @@
 
                     <div class="tab-pane active show" id="tab-1">
                         <div class="row">
-                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                                 {{-- <h3>Manufacturing</h3> --}}
                                 <p class="gss-text-line">Our safety solutions cater to the manufacturing industry, addressing specific risks such as machinery safety, ergonomics, hazardous materials handling, and process safety management to create a safe and efficient production environment.
                                 </p>
@@ -67,7 +67,7 @@
                                     <li><i class="bi bi-check2-all"></i> Equipment safety inspections and maintenance</li>
                                 </ul>
                             </div>
-                            <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                            <div class="col-lg-6 order-1 order-lg-2 text-center">
                                 <img src="{{ asset('img/sectors/manufacturing-sector.jpg') }}" alt="" class="img-fluid">
                             </div>
                         </div>
