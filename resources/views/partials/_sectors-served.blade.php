@@ -5,48 +5,50 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <ul class="gss-tabs nav nav-tabs row g-2 d-flex">
+                <div class="position-ralative" id="slider-industry-solutions">
+                    <div class="nav nav-pills row g-2 d-flex flex-nowrap swiper-wrapper">
 
-                    <li class="nav-item col-12 col-md-3 col-lg-2">
-                        <a class="nav-link active show justify-content-start flex-column" data-bs-toggle="tab" data-bs-target="#tab-1">
-                            <img class="img-fluid" src="{{ asset('img/sectors/manufacturing.png') }}" width="40px" height="40px"/>
-                            <h4>Manufacturing</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
+                        <div class="nav-item col-12 col-md-3 col-lg-2 flex-shrink-0 swiper-slide">
+                            <a class="nav-link active show justify-content-center flex-column" data-bs-toggle="tab" data-bs-target="#tab-1">
+                                <img class="img-fluid" src="{{ asset('img/sectors/manufacturing.png') }}" width="40px" height="40px"/>
+                                <h4>Manufacturing</h4>
+                            </a>
+                        </div><!-- End tab nav item -->
 
-                    <li class="nav-item col-12  col-md-3 col-lg-2">
-                        <a class="nav-link justify-content-start flex-column" data-bs-toggle="tab" data-bs-target="#tab-2">
-                            <img class="img-fluid" src="{{ asset('img/sectors/construction.png') }}" width="40px" height="40px"/>
-                            <h4>Construction</h4>
-                        </a><!-- End tab nav item -->
-                    </li>
+                        <div class="nav-item col-12  col-md-3 col-lg-2 flex-shrink-0 swiper-slide">
+                            <a class="nav-link justify-content-center flex-column" data-bs-toggle="tab" data-bs-target="#tab-2">
+                                <img class="img-fluid" src="{{ asset('img/sectors/construction.png') }}" width="40px" height="40px"/>
+                                <h4>Construction</h4>
+                            </a><!-- End tab nav item -->
+                        </div>
 
-                    <li class="nav-item col col-md-3 col-lg-2">
-                        <a class="nav-link justify-content-start flex-column" data-bs-toggle="tab" data-bs-target="#tab-3">
-                            <img class="img-fluid" src="{{ asset('img/sectors/healthcare.png') }}" width="40px" height="40px"/>
-                            <h4>Healthcare</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
+                        <div class="nav-item col col-md-3 col-lg-2 flex-shrink-0 swiper-slide">
+                            <a class="nav-link justify-content-center flex-column" data-bs-toggle="tab" data-bs-target="#tab-3">
+                                <img class="img-fluid" src="{{ asset('img/sectors/healthcare.png') }}" width="40px" height="40px"/>
+                                <h4>Healthcare</h4>
+                            </a>
+                        </div><!-- End tab nav item -->
 
-                    <li class="nav-item col-12 col-md-3 col-lg-2">
-                        <a class="nav-link justify-content-start flex-column" data-bs-toggle="tab" data-bs-target="#tab-4">
-                            <img class="img-fluid" src="{{ asset('img/sectors/transportation.png') }}" width="40px" height="40px"/>
-                            <h4>Transportation</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
-                    <li class="nav-item col-12 col-md-3 col-lg-2">
-                        <a class="nav-link justify-content-start flex-column" data-bs-toggle="tab" data-bs-target="#tab-5">
-                            <img class="img-fluid" src="{{ asset('img/sectors/mining.png') }}" width="40px" height="40px"/>
-                            <h4>Mining</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
-                    <li class="nav-item col-12 col-md-3 col-lg-2">
-                        <a class="nav-link justify-content-start flex-column" data-bs-toggle="tab" data-bs-target="#tab-6">
-                            <img class="img-fluid" src="{{ asset('img/sectors/energy.png') }}" width="40px" height="40px"/>
-                            <h4>Energy</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
-                </ul>
+                        <div class="nav-item col-12 col-md-3 col-lg-2 flex-shrink-0 swiper-slide">
+                            <a class="nav-link justify-content-center flex-column" data-bs-toggle="tab" data-bs-target="#tab-4">
+                                <img class="img-fluid" src="{{ asset('img/sectors/transportation.png') }}" width="40px" height="40px"/>
+                                <h4>Transportation</h4>
+                            </a>
+                        </div><!-- End tab nav item -->
+                        <div class="nav-item col-12 col-md-3 col-lg-2 flex-shrink-0 swiper-slide">
+                            <a class="nav-link justify-content-center flex-column" data-bs-toggle="tab" data-bs-target="#tab-5">
+                                <img class="img-fluid" src="{{ asset('img/sectors/mining.png') }}" width="40px" height="40px"/>
+                                <h4>Mining</h4>
+                            </a>
+                        </div><!-- End tab nav item -->
+                        <div class="nav-item col-12 col-md-3 col-lg-2 flex-shrink-0 swiper-slide">
+                            <a class="nav-link justify-content-center flex-column" data-bs-toggle="tab" data-bs-target="#tab-6">
+                                <img class="img-fluid" src="{{ asset('img/sectors/energy.png') }}" width="40px" height="40px"/>
+                                <h4>Energy</h4>
+                            </a>
+                        </div><!-- End tab nav item -->
+                    </div>
+                </div>
 
                 <div class="tab-content">
 

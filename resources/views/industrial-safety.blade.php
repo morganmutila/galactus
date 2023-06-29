@@ -7,10 +7,9 @@
 
     <main id="main">
         <div class="img-bg d-flex align-items-center bg-secondary text-white" style="background-image: url('{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}');">
-            <div class="container position-relative d-flex flex-column align-items-md-start align-items-center" data-aos="fade-up" data-aos-delay="200">
-                <h2 class="fs-1 mb-3 gss-title text-white">What is Industrial Safety?</h2>
-                <p class="gss-text-line w-50 d-none d-md-flex lh-base">Industrial safety refers to the measures and practices implemented to prevent accidents, injuries, and health hazards in industrial workplaces. It encompasses a wide range of protective measures, protocols, and training programs designed to safeguard the well-being of workers, protect the environment, and ensure regulatory compliance.</p>
-                <p class="gss-text-line d-md-none">Industrial safety refers to the measures and practices implemented to prevent accidents, injuries, and health hazards in industrial workplaces. It encompasses a wide range of protective measures, protocols, and training programs designed to safeguard the well-being of workers, protect the environment, and ensure regulatory compliance.</p>
+            <div class="container position-relative d-flex flex-column align-items-md-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="fs-1 mb-4 text-white">What is Industrial Safety?</h2>
+                <p class="text-center gss-text-line d-none d-md-flex lh-base px-md-4 px-lg-5">Industrial safety refers to the measures and practices implemented to prevent accidents, injuries, and health hazards in industrial workplaces. It encompasses a wide range of protective measures, protocols, and training programs designed to safeguard the well-being of workers, protect the environment, and ensure regulatory compliance.</p>
             </div>
         </div><!-- End Breadcrumbs -->
 

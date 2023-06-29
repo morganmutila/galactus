@@ -79,7 +79,7 @@
     </div>
 
     <div class="container">
-        <div class="row my-3 align-items-center text-center text-md-end">
+        <div class="row my-4 align-items-center text-center text-md-end">
             <a href="{{ route('industries') }}" class="gss-text-line">View All Solutions <i class="bi bi-chevron-double-right"></i></a>
         </div>
     </div>

@@ -150,37 +150,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  /**
-   * Init swiper slider with 2 slides at once in desktop view
-   */
-  new Swiper('.slides-2', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+  new Swiper("#slider-industry-solutions", {
+    slidesPerView: 2,
+    centeredSlides: false,
+    slidesPerGroupSkip: 1,
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
     },
     breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
+      769: {
+        slidesPerView: 6,
+        slidesPerGroup: 4,
       },
+    },
 
-      1200: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      }
-    }
   });
 
   /**
