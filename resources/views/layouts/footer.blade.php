@@ -16,10 +16,9 @@
                 <div class="col-lg-2 col-md-4 text-center text-md-start footer-links order-md-4">
                     <h4>Help</h4>
                     <ul>
-                        <li><a href="{{ route('safety') }}">What is Safety?</a></li>
+                        <li><a href="{{ route('safety') }}">What is HSE?</a></li>
                         <li><a href="{{ route('contact') }}">Contact Us</a></li>
                         <li><a href="{{ route('contact') }}">Request a quote</a></li>
-                        <li><a href="{{ route('home') }}">Careers</a></li>
                     </ul>
                 </div><!-- End footer links column-->
 
@@ -29,15 +28,15 @@
                         <li><a href="{{ route('about') }}">About {{ Config('app.name') }}</a></li>
                         <li><a href="{{ route('solutions') }}">Solutions</a></li>
                         <li><a href="{{ route('industries') }}">Industrial Solutions</a></li>
-                        <li><a href="{{ route('projects') }}">Projects</a></li>
                         <li><a href="{{ route('blog') }}">News</a></li>
+                        <li><a href="{{ route('home') }}">Careers</a></li>
                     </ul>
                 </div><!-- End footer links column-->
 
                 <div class="col-lg-2 col-md-4 d-none d-md-block text-center text-md-start footer-links order-md-2">
                     <h4>Our Solutions</h4>
                     <ul>
-                        <li><a href="#">Safety Assessments</a></li>
+                        <li><a href="#">Risk Assessments</a></li>
                         <li><a href="#">Training Programs</a></li>
                         <li><a href="#">Consulting</a></li>
                         <li><a href="#">Equipment Supply</a></li>

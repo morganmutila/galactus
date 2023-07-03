@@ -8,18 +8,18 @@
     <main id="main">
         <div class="img-bg d-flex align-items-center bg-secondary text-white" style="background-image: url('{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}');">
             <div class="container position-relative d-flex flex-column justify-content-center text-center align-items-md-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-                <h2 class="fs-1 mb-4 mb-md-5 text-white">What is Industrial Safety?</h2>
-                <p class="text-center gss-text-line lh-base px-md-4 px-lg-5">Industrial safety refers to the measures and practices implemented to prevent accidents, injuries, and health hazards in industrial workplaces. It encompasses a wide range of protective measures, protocols, and training programs designed to safeguard the well-being of workers, protect the environment, and ensure regulatory compliance.</p>
+                <h2 class="fs-1 mb-4 mb-md-5 text-white">What is HSE?</h2>
+                <p class="text-center gss-text-line lh-base px-md-4 px-lg-5">HSE stands for Health, Safety, and Environment. It is a framework that focuses on the well-being of individuals, the protection of the environment, and the prevention of incidents and accidents within various industries and workplaces. The primary goal of HSE is to ensure the health and safety of workers, as well as to minimize the negative impact of human activities on the environment.</p>
             </div>
         </div><!-- End Breadcrumbs -->
 
-        <!-- ======= Importannce of safety Section ======= -->
+        <!-- ======= Importance of safety Section ======= -->
         <section class="services section-bg">
             <div class="container">
 
                 <div class="section-header pb-5 mb-5" data-aos="fade-up" data-aos-delay="400">
-                    <h1 class="title">The importance of industrial safety</h1>
-                    <p class="gss-text-line">Industrial safety is of paramount importance as it directly impacts the physical well-being of employees, the productivity of the workforce, and the overall success of an organization. By prioritizing industrial safety, companies can</p>
+                    <h1 class="title">The importance of HSE</h1>
+                    <p class="gss-text-line">HSE is of paramount importance as it directly impacts the physical well-being of employees, the productivity of the workforce, and the overall success of an organization. By prioritizing HSE principles companies can</p>
                 </div>
 
                 <div class="row py-4 align-items-center justify-content-center justify-content-md-end">
@@ -43,8 +43,8 @@
 
                     <div class="col-md-5 order-1 order-md-2">
                         <div class="pt-0 ps-0 pe-0 pe-md-3 text-md-start text-center" data-aos="fade-up">
-                            <h2 class="mb-4">Protect Employee Health</h2>
-                            <p class="lh-base gss-text-line">Industrial environments may expose workers to various health hazards, including noise, vibrations, chemical exposures, and ergonomic risks. Proper safety practices mitigate these risks, reducing the likelihood of work-related illnesses, occupational diseases, and long-term health complications.</p>
+                            <h2 class="mb-4">Employee well-being</h2>
+                            <p class="lh-base gss-text-line">By prioritizing health and safety, organizations create a safe working environment that reduces the risk of accidents, injuries, and occupational illnesses. This, in turn, promotes employee well-being, satisfaction, and productivity.</p>
                         </div>
                     </div>
                 </div>

@@ -13,9 +13,6 @@
                 <div class="member-img">
                 <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid rounded-circle" alt="">
                 <div class="social">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 </div>
@@ -47,9 +44,6 @@
             <div class="member-img">
             <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid rounded-circle" alt="">
             <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
                 <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
             </div>
