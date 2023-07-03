@@ -21,14 +21,14 @@
                             <h6 class="fw-bold text-uppercase">Who we are</h6>
                             <h2 class="gss-title text-capitalize fs-1">About Our<br>Company</h2>
                             <p class="lh-base gss-text-line">
-                                Galactus Safety Solutions Limited, founded by Mbachi Ngulube, is a leading provider of
-                                comprehensive safety solutions, committed to ensuring the well-being of individuals and
+                                Galactus Safety Solutions Limited, founded by Mbachi Ngulube is a leading provider of comprehensive Health, Safety, and Environment (HSE) services, committed to ensuring the well-being of individuals and
                                 organizations.
                             </p>
                             <p class="lh-base gss-text-line">
-                                With a strong focus on delivering excellence, Galactus Safety Solutions Limited
-                                has been serving clients since its establishment and is registered with the Patents and Companies
-                                Registration Agency (PACRA) under entity number 120220031661, guaranteeing its legitimacy and professionalism.
+                                With years of industry experience, we specialize in helping organizations create and maintain safe, healthy work environments while minimizing their impact on the environment.
+                                Galactus Safety Solutions Limited
+                                has been serving clients since its establishment. We are registered with the Patents and Companies
+                                Registration Agency (PACRA) under entity number 120220031661, guaranteeing our professionalism.
                             </p>
 
                         </div>
@@ -139,55 +139,8 @@
 
 
         <!-- ======= Why choose us Section ======= -->
-        <section class="alt-services">
-            <div class="container-fluid" data-aos="fade-up">
-
-                <div class="row justify-content-around gy-4">
-
-                    <div class="col-md-6 why-us d-flex flex-column justify-content-center">
-                        <h6 class="fw-bold text-uppercase">Work with us</h6>
-                        <h2 class="gss-title fs-1 text-capitalize">Why Choose<br>Galactus</h2>
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bi bi-patch-check-fill flex-shrink-0"></i>
-                        <div>
-                            <h4>Expertise and Experience</h4>
-                            <p>With years of experience in the safety industry, our team of experts possesses the knowledge and skills necessary to address your safety needs effectively. We stay updated with the latest regulations, best practices, and industry standards, ensuring that you receive the highest level of professional service.</p>
-                        </div>
-                        </div><!-- End Icon Box -->
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bi bi-easel-fill flex-shrink-0"></i>
-                        <div>
-                            <h4>Comprehensive Safety Solutions</h4>
-                            <p>We offer a wide range of safety services tailored to meet the specific requirements of your industry. From conducting thorough safety assessments and implementing customized safety programs to providing comprehensive safety training and supplying top-quality safety equipment, we have you covered.</p>
-                        </div>
-                        </div><!-- End Icon Box -->
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-                        <i class="bi bi-people-fill flex-shrink-0"></i>
-                        <div>
-                            <h4>Client-Focused Approach</h4>
-                            <p>We prioritize our clients and their unique needs. Our team takes the time to understand your organization, its operations, and safety challenges. We work closely with you to develop customized solutions that align with your goals and help create a safe and compliant work environment.</p>
-                        </div>
-                        </div><!-- End Icon Box -->
-
-                        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-                        <i class="fa fa-helmet-safety  flex-shrink-0"></i>
-                        <div>
-                            <h4>Industry Experience</h4>
-                            <p>We have extensive experience serving various industries, including construction, manufacturing, healthcare, transportation, and more. Our industry-specific knowledge allows us to provide targeted safety solutions that address the specific risks and challenges faced by your industry.</p>
-                        </div>
-                        </div><!-- End Icon Box -->
-
-                    </div>
-                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{ asset('img/why-wok-with-us.jpg') }}" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </section><!-- End Why choose us Section -->
+        @include('partials._why-choose-us')
+        <!-- End Why choose us Section -->
 
         <!-- ======= Download Company Profile ======= -->
         <section id="cta" class="cta">

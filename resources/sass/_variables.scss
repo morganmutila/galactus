@@ -1,0 +1,15 @@
+// Body
+$body-bg: red;
+
+// Typography
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
+
+body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+}
+

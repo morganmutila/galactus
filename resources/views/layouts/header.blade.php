@@ -14,16 +14,23 @@
                     <li><a href="{{ route('solutions') }}" class="@if (request()->RouteIs('solutions')) ? active : '' @endif">Solutions</a></li>
                     <li><a href="{{ route('projects') }}" class="@if (request()->RouteIs('projects')) ? active : '' @endif">Projects</a></li>
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-caret-down-fill fs-6"></i></a>
-                    <ul>
-                        <li><a href="{{ route('about') }}" class="@if (request()->RouteIs('about')) ? active : '' @endif">About us</a></li>
-                        <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Our Team</a></li>
-                        <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Brand</a></li>
-                        <li><a href="{{ route('about') }}/#vision" class="@if (request()->RouteIs('about')) ? active : '' @endif">Vision & Mission</a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="{{ route('about') }}" class="@if (request()->RouteIs('about')) ? active : '' @endif">About {{ Config('app.name') }}</a></li>
+                            <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Our Team</a></li>
+                            <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Brand</a></li>
+                            <li><a href="{{ route('about') }}/#vision" class="@if (request()->RouteIs('about')) ? active : '' @endif">Vision & Mission</a></li>
+                        </ul>
                     </li>
                     <li><a href="{{ route('blog') }}" class="@if (request()->RouteIs('blog')) ? active : '' @endif">News</a></li>
                     <li><a href="{{ route('contact') }}" class="@if (request()->RouteIs('contact')) ? active : '' @endif">Contact</a></li>
+                    <li class="d-md-none social-links d-flex justify-content-around mt-auto">
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="bi bi-linkedin"></span></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="bi bi-facebook"></span></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="bi bi-youtube"></span></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><span class="bi bi-instagram"></span></a>
+                    </li>
                 </ul>
+
             </nav><!-- .navbar -->
         </div>
     </div>

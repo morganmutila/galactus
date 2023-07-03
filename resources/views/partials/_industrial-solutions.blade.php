@@ -177,7 +177,7 @@
                                 </ul>
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2 text-center">
-                                <img src="{{ asset('img/sectors/utilities-sector.jpg')}}" alt="" class="img-fluid">
+                                <img src="{{ asset('img/sectors/energy-sector.jpg')}}" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div><!-- End tab content item -->

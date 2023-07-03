@@ -190,12 +190,12 @@
             <div class="container">
 
                 <div class="section-header" data-aos="fade-up" data-aos-delay="400">
-                    <h1 class="title">Partner with {{ Config('app.name') }} for safety solutions</h1>
+                    <h1 class="title">Partner with {{ Config('app.name') }} for HSE solutions</h1>
                 </div>
                 <p class="gss-text-line text-center mb-4">At {{ Config('app.name') }} we are committed to promoting industrial safety and assisting organizations in achieving optimal safety standards. Through our comprehensive range of services, including safety assessments, training programs, consulting, and tailored safety solutions, we help businesses foster a culture of safety, minimize risks, and protect their most valuable asset—their employees.</p>
 
                 <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-                    <h5 class="fw-bold">Ready to get started with Galactus Safety Solutions?</h5>
+                    <h5 class="fw-bold">Ready to discuss your HSE requirements?</h5>
                     <a href="{{ route('home') }}" class="btn-get-started mt-4">Request a quote</a>
                 </div>
             </div>

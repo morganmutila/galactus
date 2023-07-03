@@ -18,8 +18,19 @@
                 </div>
                 <div class="member-info text-center">
                 <h4>Mbachi Ngulube</h4>
-                <span>Executive Director</span>
-                <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                <span>Founder and Managing Director</span>
+                <p>An accomplished, multifaceted, and solutions-
+                    focused leader with 7+ years experience as
+                    an occupational safety management specialist
+                    for an industry-leading organization. Supports
+                    organizations to elevate and integrate safety
+                    as a strategic business priority by providing
+                    guidance and direction to ensure that those
+                    involved in its operations do so in a safe,
+                    healthy, responsible, and acceptable manner. In-
+                    depth knowledge of developing and executing
+                    health and safety plans & agreements, in
+                    line with legal guidelines.</p>
                 </div>
             </div><!-- End Team Member -->
 

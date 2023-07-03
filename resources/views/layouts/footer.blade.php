@@ -62,7 +62,7 @@
     <div class="footer-legal text-center text-md-start position-relative">
         <div class="copyright">
             <div class="container">
-                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. <br class="d-md-none">All Rights Reserved. <span class="d-none d-md-inline">{{ Config('app.name') }} is registered with the Patents and Companies Registration Agency (PACRA) under entity number 120220031661.</span>
+                &copy; {{ date('Y') }}&nbsp{{ Config('app.name') }} Safety Solutions Ltd. <br class="d-md-none">All Rights Reserved. <span class="d-none d-md-inline">{{ Config('app.name') }} is registered with PACRA entity number 120220031661.</span>
             </div>
         </div>
     </div>

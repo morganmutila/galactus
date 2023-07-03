@@ -9,13 +9,13 @@
         <div class="row gy-4">
 
             <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item  position-relative shadow-sm align-items-stretch">
+                <div class="service-item  position-relative shadow-sm">
                     <div class="icon">
                         <i class="fa-solid fa-mountain-city"></i>
                     </div>
-                    <h3>Risk Assessments</h3>
+                    <h3>Safety Audits</h3>
                     <p>Our comprehensive risk assessments identify potential hazards and risks within your workplace.</p>
-                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('solutions') }}" class="readmore mt-auto stretched-link"><i class="fs-4 bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
 
@@ -26,7 +26,7 @@
                     </div>
                     <h3>Training Programs</h3>
                     <p>We offer a wide range of safety training programs tailored to your industry and specific needs.</p>
-                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('solutions') }}" class="readmore mt-auto stretched-link"><i class="fs-4 bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
 
@@ -37,7 +37,7 @@
                     </div>
                     <h3>Consulting</h3>
                     <p>Our experienced safety consultants work closely with you to develop effective safety strategies and programs.</p>
-                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('solutions') }}" class="readmore mt-auto stretched-link"><i class="fs-4 bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
 
@@ -46,9 +46,9 @@
                     <div class="icon">
                         <i class="fa-solid fa-trowel-bricks"></i>
                     </div>
-                    <h3>Safety Equipment Supply</h3>
+                    <h3>Safety Equipment</h3>
                     <p>We offer a comprehensive selection of high-quality safety equipment and supplies.</p>
-                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('solutions') }}" class="readmore mt-auto stretched-link"><i class="fs-4 bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
 
@@ -59,7 +59,7 @@
                     </div>
                     <h3>Safety Audits and Inspections</h3>
                     <p>Our thorough safety audits and inspections assess your workplace's compliance with safety regulations and standards.</p>
-                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="fs-4 bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item --> --}}
 
@@ -70,7 +70,7 @@
                     </div>
                     <h3>Safety Management Systems</h3>
                     <p>We help you establish effective safety management systems to streamline safety processes, track performance, and continuously improve safety practices.</p>
-                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+                    <a href="{{ route('solutions') }}" class="readmore stretched-link"><i class="fs-4 bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item --> --}}
 
