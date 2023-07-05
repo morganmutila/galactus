@@ -12,7 +12,7 @@
 
         @include('partials._industrial-solutions-alt')
 
-        @include('partials._why-choose-us')
+        {{-- @include('partials._why-choose-us') --}}
 
         {{-- @include('partials._blog-posts') --}}
 
