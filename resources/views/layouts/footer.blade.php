@@ -41,7 +41,6 @@
                         <li><a href="#">Consulting</a></li>
                         <li><a href="#">Equipment Supply</a></li>
                         <li><a href="#">Audits and Inspections</a></li>
-                        <li><a href="#">Management Systems</a></li>
                     </ul>
                 </div><!-- End footer links column-->
 
