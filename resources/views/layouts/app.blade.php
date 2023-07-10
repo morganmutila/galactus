@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Galactus Safety provides comprehensive Health, Safety, and Environment (HSE) solutions to ensure workplace well-being and the success of your organization. Contact us for expert HSE services.">
+
     <title>@yield('title', 'Galactus® - Your safety is our no 1 priority')</title>
     <meta content="author" name="Mostek Technologies">
 
@@ -57,6 +59,16 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('js/main.js') }}"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Company",
+          "name": "Galactus Safety Solutions",
+          "url": "https://www.galactussafety.com",
+          "logo": "https://www.galactussafety.com/img/logo.png"
+        }
+    </script>
+
 
 </body>
 

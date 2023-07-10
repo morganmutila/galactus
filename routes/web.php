@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/solutions', function () {
+Route::get('/hse-solutions', function () {
     return view('solutions');
 })->name('solutions');
 
@@ -34,6 +34,10 @@ Route::get('/what-is-industrial-safety', function () {
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
+
+Route::get('/sitemap', function () {
+    return view('sitemap');
+})->name('sitemap');
 
 
 // Admin Routes

@@ -12,9 +12,6 @@
             <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
                 <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid rounded-circle" alt="">
-                <div class="social">
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
                 </div>
                 <div class="member-info text-center">
                 <h4>Mbachi Ngulube</h4>
@@ -29,12 +26,6 @@
             <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member-img">
                     <img src="{{ asset('img/team/team-2.jpg') }}" class="img-fluid rounded-circle" alt="">
-                    <div class="social">
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </div>
                 </div>
                 <div class="member-info text-center">
                     <h4>Mwansa Kosamu</h4>
@@ -46,9 +37,7 @@
         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
             <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid rounded-circle" alt="">
-            <div class="social">
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-            </div>
+
             </div>
             <div class="member-info text-center">
             <h4>Owen Kigele</h4>

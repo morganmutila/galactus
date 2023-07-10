@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{ asset('img/about-1.jpg') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('img/about-1.jpg') }}" alt="About us" class="img-fluid">
                     </div>
 
                 </div>
@@ -45,7 +45,7 @@
 
                 <div class="row">
                     <div class="col-md-6 order-2 order-md-1">
-                        <img src="{{ asset('img/about-2.jpg') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('img/media/galactus-60.jpg') }}" alt="Our Experts" class="img-fluid">
                     </div>
 
                     <div class="col-md-6 order-1 order-md-2">
@@ -134,7 +134,7 @@
             <div class="container aos-init aos-animate" data-aos="zoom-in">
                 <div class="text-start">
                     <h3>Download our company profile to learn more about Galactus.</h3>
-                    <a class="btn call-to-action-btn mt-md-3" href="#">Download Profile</a>
+                    <a class="btn call-to-action-btn mt-3" href="#">Download Profile</a>
                 </div>
             </div>
         </section><!-- End Download Company Profile -->
