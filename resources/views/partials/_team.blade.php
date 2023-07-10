@@ -22,15 +22,7 @@
                 <p>An accomplished, multifaceted, and solutions-
                     focused leader with 7+ years experience as
                     an occupational safety management specialist
-                    for an industry-leading organization. Supports
-                    organizations to elevate and integrate safety
-                    as a strategic business priority by providing
-                    guidance and direction to ensure that those
-                    involved in its operations do so in a safe,
-                    healthy, responsible, and acceptable manner. In-
-                    depth knowledge of developing and executing
-                    health and safety plans & agreements, in
-                    line with legal guidelines.</p>
+                    for an industry-leading organization.</p>
                 </div>
             </div><!-- End Team Member -->
 

@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class="carousel-item active" style="background-image: url({{ asset('img/media/galactus-30.jpg') }})"></div>
+        <div class="carousel-item active" style="background-image: url({{ asset('img/media/galactus-53.jpg') }})"></div>
 
         {{-- <a class="carousel-control-prev d-none d-md-flex" href="#hero-carousel" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>

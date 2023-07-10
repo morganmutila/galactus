@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us')
+@section('title', 'About Galactus')
 
 @section('content')
 
@@ -12,29 +12,25 @@
 
         <!-- ======= Our company Section ======= -->
         <section>
-            <div class="container-md-fluid" data-aos="fade-up">
+            <div class="container" data-aos="fade-up">
 
-                <div class="row position-relative">
+                <div class="row">
 
-                    <div class="our-company col-md-6">
-                        <div class="pt-0 ps-0 pe-0 pe-md-3">
-                            <h6 class="fw-bold text-uppercase">Who we are</h6>
-                            <h2 class="gss-title text-capitalize fs-1">About Our<br>Company</h2>
-                            <p class="lh-base gss-text-line">
-                                Galactus Safety Solutions Limited, founded by Mbachi Ngulube is a leading provider of comprehensive Health, Safety, and Environment (HSE) services, committed to ensuring the well-being of individuals and
-                                organizations.
-                            </p>
-                            <p class="lh-base gss-text-line">
-                                With years of industry experience, we specialize in helping organizations create and maintain safe, healthy work environments while minimizing their impact on the environment.
-                                Galactus Safety Solutions Limited
-                                has been serving clients since its establishment. We are registered with the Patents and Companies
-                                Registration Agency (PACRA) under entity number 120220031661, guaranteeing our professionalism.
-                            </p>
-
-                        </div>
+                    <div class="col-md-6">
+                        <h2 class="gss-title text-capitalize fs-1">Our Company</h2>
+                        <p class="lead">
+                            Galactus Safety Solutions Limited, founded by Mbachi Ngulube is a leading provider of comprehensive Health, Safety, and Environment (HSE) services, committed to ensuring the well-being of individuals and
+                            organizations.
+                        </p>
+                        <p class="lh-base gss-text-line">
+                            With years of industry experience, we specialize in helping organizations create and maintain safe, healthy work environments while minimizing their impact on the environment.
+                            Galactus Safety Solutions Limited
+                            has been serving clients since its establishment. We are registered with the Patents and Companies
+                            Registration Agency (PACRA) under entity number 120220031661, guaranteeing our professionalism.
+                        </p>
                     </div>
 
-                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{ asset('img/about-1.jpg') }}" alt="" class="img-fluid">
                     </div>
 
@@ -43,28 +39,24 @@
             </div>
         </section><!-- End our company section -->
 
-
         <!-- ======= Proffetional experts ======= -->
         <section class="section-bg">
-            <div class="container-md-fluid" data-aos="fade-up">
+            <div class="container" data-aos="fade-up">
 
-                <div class="row position-relative">
-                    <div class="col-md-5  order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+                <div class="row">
+                    <div class="col-md-6 order-2 order-md-1">
                         <img src="{{ asset('img/about-2.jpg') }}" alt="" class="img-fluid">
                     </div>
 
-                    <div class="professionals offset-md-1 col-md-6 order-1 order-md-2">
-                        <div class="pt-0 pe-0 ps-0 ps-md-3" data-aos="fade-up" data-aos-delay="100">
-                            <h6 class="fw-bold text-uppercase">our experts</h6>
-                            <h2 class="gss-title text-capitalize mt-3 mt-mb-0 fs-1">Industrial Safety<br>Professionals</h2>
-                            <p class="lh-base gss-text-line">Our dedicated team of safety experts leverages extensive industry knowledge
-                            and experience to deliver tailored safety services, including safety assessments,
-                            training programs, consulting, and equipment supply. </p>
-                            <p>We are passionately committed to fostering a culture of safety, empowering our clients to mitigate risks, comply with
-                            regulations, and create a secure working environment. Partner with Galactus Safety Solutions
-                            Limited to ensure the highest standards of safety and protect what matters most.
-                            <p>
-                        </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <h2 class="gss-title text-capitalize mt-3 mt-mb-0 fs-1">Industrial Safety<br>Professionals</h2>
+                        <p class="lh-base gss-text-line">Our dedicated team of safety experts leverages extensive industry knowledge
+                        and experience to deliver tailored safety services, including safety assessments,
+                        training programs, consulting, and equipment supply. </p>
+                        <p>We are passionately committed to fostering a culture of safety, empowering our clients to mitigate risks, comply with
+                        regulations, and create a secure working environment. Partner with Galactus Safety Solutions
+                        Limited to ensure the highest standards of safety and protect what matters most.
+                        <p>
                     </div>
 
                 </div>
@@ -72,21 +64,17 @@
             </div>
         </section><!-- End proffetional experts -->
 
-
         <!-- ======= Industries Served Section ======= -->
         <section>
-            <div class="container-md-fluid">
-                <div class="row position-relative">
-                    <div class="tailored-solutions col-md-6">
-                        <div class="pt-0 ps-0 pe-0 pe-md-3">
-                            <h6 class="fw-bold text-uppercase">sectors we serve</h6>
-                            <h2 class="gss-title fs-1 text-capitalize">Tailored Industry<br>Solutions</h2>
-                            <p class="gss-text-line">At Galactus Safety Solutions Limited, we proudly serve a diverse range of sectors, providing comprehensive safety solutions tailored to the unique needs and challenges of each industry.</p>
-                            <p class="gss-text-line">From construction and manufacturing to oil and gas, healthcare, transportation, and beyond, our expertise extends across various sectors, ensuring the highest standards of safety, compliance, and peace of mind for our valued clients. </p>
-                            <p class="gss-text-line">With a deep understanding of industry-specific risks and regulations, we deliver customized safety programs, training, and consulting services that empower organizations to create safe, secure, and productive work environments in their respective sectors.</p>
-                        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="gss-title fs-1 text-capitalize">Tailored Industry Solutions</h2>
+                        <p class="gss-text-line">At Galactus Safety Solutions Limited, we proudly serve a diverse range of sectors, providing comprehensive safety solutions tailored to the unique needs and challenges of each industry.</p>
+                        <p class="gss-text-line">From construction and manufacturing to oil and gas, healthcare, transportation, and beyond, our expertise extends across various sectors, ensuring the highest standards of safety, compliance, and peace of mind for our valued clients. </p>
+                        <p class="gss-text-line">With a deep understanding of industry-specific risks and regulations, we deliver customized safety programs, training, and consulting services that empower organizations to create safe, secure, and productive work environments in their respective sectors.</p>
                     </div>
-                    <div class="col-md-5 offset-md-1" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <img src="{{ asset('img/sectors-served.jpg') }}" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -137,7 +125,6 @@
             </div>
         </section><!-- End Stats Counter Section -->
 
-
         <!-- ======= Why choose us Section ======= -->
         @include('partials._why-choose-us')
         <!-- End Why choose us Section -->
@@ -146,9 +133,8 @@
         <section id="cta" class="cta">
             <div class="container aos-init aos-animate" data-aos="zoom-in">
                 <div class="text-start">
-                    <h3>Download our company profile</h3>
-                    <p>Download the company profile to learn more about Galactus.</p>
-                    <a class="cta-btn" href="#">Download Profile</a>
+                    <h3>Download our company profile to learn more about Galactus.</h3>
+                    <a class="btn call-to-action-btn mt-md-3" href="#">Download Profile</a>
                 </div>
             </div>
         </section><!-- End Download Company Profile -->
@@ -161,4 +147,3 @@
     </main><!-- End #main -->
 
 @endsection
-

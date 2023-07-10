@@ -16,8 +16,7 @@
                     <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-caret-down-fill fs-6"></i></a>
                         <ul>
                             <li><a href="{{ route('about') }}" class="@if (request()->RouteIs('about')) ? active : '' @endif">About {{ Config('app.name') }}</a></li>
-                            <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Our Team</a></li>
-                            <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Brand</a></li>
+                            <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Team</a></li>
                             <li><a href="{{ route('about') }}/#vision" class="@if (request()->RouteIs('about')) ? active : '' @endif">Vision & Mission</a></li>
                         </ul>
                     </li>

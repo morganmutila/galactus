@@ -2,7 +2,7 @@
 <section id="alt-services" class="alt-services">
     <div class="container" data-aos="fade-up">
 
-        <div class="section-header pb-0">
+        <div class="section-header pb-5">
             <h2>Why Choose Galactus</h2>
         </div>
 
@@ -10,14 +10,14 @@
 
             <div class="col-md-3 order-md-1 order-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="d-flex flex-column align-items-center justify-content-center text-center text-md-start mb-4">
-                    <div>
-                        <h5 class="pb-2 text-primary">Experienced and Knowledgeable Team</h5>
+                    <div class="px-4 px-md-0">
+                        <h5 class="pb-2 text-primary">Experienced Team</h5>
                         <p class="gss-text-sm">At Galactus, our team comprises experienced professionals with extensive knowledge in the field of HSE.</p>
                     </div>
                 </div>
 
                 <div class="d-flex flex-column align-items-center justify-content-center text-center text-md-start">
-                    <div>
+                    <div class="px-4 px-md-0">
                         <h5 class="pb-2 text-primary">Comprehensive Range of HSE Solutions</h5>
                         <p class="gss-text-sm">Galactus offers a comprehensive suite of HSE services to meet the specific needs of our clients.</p>
                     </div>
@@ -34,15 +34,15 @@
 
             <div class="col-md-3  order-md-3 order-3" data-aos="fade-up" data-aos-delay="100">
                 <div class="d-flex flex-column align-items-center justify-content-center text-center text-md-start mb-4">
-                    <div>
+                    <div class="px-4 px-md-0">
                         <h5 class="pb-2 text-primary">Client-Focused Approach</h5>
                         <p class="gss-text-sm">We prioritize our clients and their unique needs. Our team takes the time to understand your organization, its operations, and safety challenges.</p>
                     </div>
                 </div>
 
                 <div class="d-flex flex-column align-items-center justify-content-center text-center text-md-start">
-                    <div>
-                        <h5 class="pb-2 text-primary">Tailored Solutions for Specific Industry Requirements</h5>
+                    <div class="px-4 px-md-0">
+                        <h5 class="pb-2 text-primary">Tailored Industry Solutions</h5>
                         <p class="gss-text-sm">At Galactus, we take a customized approach, carefully considering the specific needs of our clients and tailoring our services to suit their industry.</p>
                     </div>
                 </div>

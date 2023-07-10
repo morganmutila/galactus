@@ -16,7 +16,7 @@
     <!-- Vendor CSS & JS Files -->
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/fontawesome-free-6/css/all.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     @if (request()->RouteIs('gallary'))
         <link href="{{ asset('vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">

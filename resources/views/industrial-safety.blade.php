@@ -9,7 +9,7 @@
         <div class="img-bg d-flex align-items-center bg-secondary text-white" style="background-image: url('{{ asset('img/hero-carousel/hero-carousel-3.jpg') }}');">
             <div class="container position-relative d-flex flex-column justify-content-center text-center align-items-md-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="fs-1 mb-4 mb-md-5 text-white">What is HSE?</h2>
-                <p class="text-center gss-text-line lh-base px-md-4 px-lg-5">HSE stands for Health, Safety, and Environment. It is a framework that focuses on the well-being of individuals, the protection of the environment, and the prevention of incidents and accidents within various industries and workplaces. The primary goal of HSE is to ensure the health and safety of workers, as well as to minimize the negative impact of human activities on the environment.</p>
+                <p class="text-center gss-text-line lh-base px-4 px-lg-5">HSE stands for Health, Safety, and Environment. It is a framework that focuses on the well-being of individuals, the protection of the environment, and the prevention of incidents and accidents within various industries and workplaces. </p>
             </div>
         </div><!-- End Breadcrumbs -->
 
