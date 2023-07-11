@@ -35,6 +35,10 @@ Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
 
+Route::get('/brand-identity', function () {
+    return view('brand');
+})->name('brand');
+
 Route::get('/sitemap', function () {
     return view('sitemap');
 })->name('sitemap');

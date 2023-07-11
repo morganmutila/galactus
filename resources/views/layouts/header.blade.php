@@ -18,6 +18,7 @@
                             <li><a href="{{ route('about') }}" class="@if (request()->RouteIs('about')) ? active : '' @endif">About {{ Config('app.name') }}</a></li>
                             <li><a href="{{ route('about') }}/#team" class="@if (request()->RouteIs('about')) ? active : '' @endif">Team</a></li>
                             <li><a href="{{ route('about') }}/#vision" class="@if (request()->RouteIs('about')) ? active : '' @endif">Vision & Mission</a></li>
+                            <li><a href="{{ route('brand') }}" class="@if (request()->RouteIs('brand')) ? active : '' @endif">Brand Identity</a></li>
                         </ul>
                     </li>
                     <li><a href="{{ route('blog') }}" class="@if (request()->RouteIs('blog')) ? active : '' @endif">News</a></li>

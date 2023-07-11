@@ -862,7 +862,7 @@ section {
 }
 
 .industry .card-item .card-bg {
-  min-height: 190px;
+  min-height: 400px;
   background-size: cover;
   object-fit: contain;
   background-position: center;
@@ -870,23 +870,23 @@ section {
 }
 
 .industry .card-item .card-body {
-  padding: 20px 0;
+  padding: 1.1em 1.4em;
+  color: #fff;
 }
 
 .industry .card-item h4 {
   font-weight: 700;
   font-size: 20px;
-  margin-bottom: 15px;
   color: #fff;
-  text-align: center;
+  margin-bottom: .5em;
 }
 
 .industry .card-item p {
-  color: var(--color-secondary);
   margin: 0;
 }
+
 .industry .card-item .card-img-overlay{
-    background-color: rgb(0 0 0 / 30%);
+    background-color: rgb(0 0 0 / 60%);
 }
 /*--------------------------------------------------------------
 # Services Section
@@ -1312,7 +1312,8 @@ section {
 --------------------------------------------------------------*/
 
 .stats-counter .stats-item span {
-    font-size: 4rem;
+    font-size: 5rem;
+    line-height: 1;
     display: block;
     font-weight: 600;
     color: var(--color-secondary);
@@ -1334,16 +1335,10 @@ section {
 }
 
 .team .member .member-img {
-  margin: 0 80px;
   overflow: hidden;
   position: relative;
 }
 
-@media (max-width: 1024px) {
-  .team .member .member-img {
-    margin: 0 60px;
-  }
-}
 
 .team .member .member-img img {
   position: relative;

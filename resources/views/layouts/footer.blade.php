@@ -25,17 +25,9 @@
                     </ul>
                 </div><!-- End footer links column-->
 
-                <div class="col-lg-2 col-md-4 text-center text-md-start footer-links order-3">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="{{ route('safety') }}">What is HSE?</a></li>
-                        <li><a href="{{ route('contact') }}">Request a quote</a></li>
-                        <li><a href="{{ route('sitemap') }}">Sitemap</a></li>
 
-                    </ul>
-                </div><!-- End footer links column-->
 
-                <div class="col-lg-3 col-md-4 d-none d-md-block text-center text-md-start footer-links order-4">
+                <div class="col-lg-3 col-md-4 d-none d-md-block text-center text-md-start footer-links order-3">
                     <h4>Our Solutions</h4>
                     <ul>
                         <li><a href="#">Safety Audits</a></li>
@@ -45,6 +37,17 @@
                         <li><a href="#">Safety File Development</a></li>
                         <li><a href="#">Environmental Impact Assessment</a></li>
                         <li><a href="#">Hazardous Materials Management</a></li>
+                    </ul>
+                </div><!-- End footer links column-->
+
+                <div class="col-lg-2 col-md-4 text-center text-md-start footer-links order-4">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="{{ route('safety') }}">What is HSE?</a></li>
+                        <li><a href="{{ route('contact') }}">Request a quote</a></li>
+                        <li><a href="{{ route('brand') }}" >Brand Identity</a></li>
+                        <li><a href="{{ route('sitemap') }}">Sitemap</a></li>
+
                     </ul>
                 </div><!-- End footer links column-->
 

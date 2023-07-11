@@ -93,7 +93,7 @@
     </div>
 
     <div class="container">
-        <div class="row my-4 align-items-center text-center text-md-end">
+        <div class="row my-4 align-items-center text-center text-md-end" data-aos="fade-up" data-aos-delay="600">
             <a href="{{ route('solutions') }}" class="gss-text-line">View All Solutions <i class="bi bi-chevron-double-right fs-6"></i></a>
         </div>
     </div>

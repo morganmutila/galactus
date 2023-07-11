@@ -44,6 +44,7 @@
                     <ul>
                         <li><a href="{{ route('safety') }}">What is HSE?</a></li>
                         <li><a href="{{ route('contact') }}">Request a quote</a></li>
+                        <li><a href="{{ route('brand') }}" >Brand Identity</a></li>
                     </ul>
                 </div>
 
